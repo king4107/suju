@@ -5,632 +5,346 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| 8.14Mb", server: 199.193.127.94, port: 62363, type: vmess, uuid: e5947899-df05-40d1-8cf5-17fee6f3ec37, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |13.60Mb, server: c39s3.jamjams.net, port: 61535, type: vmess, uuid: eacf6911-b896-42ba-8340-298083d7b2e4, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |17.29Mb, server: 84.17.35.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_ |11.89Mb, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ |11.38Mb, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: Pool_ |11.54Mb, server: 84.17.35.118, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |11.43Mb, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: Pool_ |12.21Mb, server: 84.17.35.118, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |12.61Mb, server: 84.17.35.118, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: Pool_ |11.01Mb, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: Pool_ |11.64Mb, server: 84.17.35.118, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: Pool_ |11.82Mb, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool_ |10.66Mb, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: Pool_ |10.70Mb, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ |11.56Mb, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |11.91Mb, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Pool_ |11.61Mb, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_ |11.81Mb, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ |19.23Mb, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ |26.37Mb, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ | 9.52Mb, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |12.42Mb, server: 84.17.35.118, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_ |10.49Mb, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool__179 |14.94Mb, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ |14.04Mb, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_ |14.30Mb, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ |13.50Mb, server: 84.17.35.118, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_ |12.24Mb, server: 84.17.35.118, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: Pool_ |11.70Mb, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: Pool_ |10.62Mb, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_ |10.35Mb, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_ |16.91Mb, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: Pool_ |16.77Mb, server: 84.17.35.118, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ | 9.35Mb, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: Pool_ |17.56Mb, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_ |11.50Mb, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |13.74Mb, server: 82.102.26.117, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: Pool_ |12.26Mb, server: 84.17.35.118, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: Pool_ |11.44Mb, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: Pool_ | 7.42Mb, server: 82.102.26.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: "| 8.20Mb", server: 221.228.99.37, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123}
-  - {name: Pool_ |22.33Mb, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Pool_ |10.72Mb, server: 82.102.26.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_ |15.33Mb, server: 82.102.26.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: Pool_ | 9.82Mb, server: 82.102.26.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Pool_ |29.37Mb, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool_ |17.69Mb, server: 84.17.35.118, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: Pool_ |17.72Mb, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Pool_ | 9.46Mb, server: 185.108.105.97, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_ | 9.29Mb, server: 185.108.105.97, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: _109 | 3.32Mb, server: 78.47.91.90, port: 36352, type: ss, cipher: aes-256-gcm, password: JUZTvwqCdJYW}
-  - {name: Pool_ | 9.81Mb, server: 185.108.105.97, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_ |15.35Mb, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: Pool_ |27.63Mb, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: Pool_ |27.98Mb, server: 82.102.26.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_ |10.32Mb, server: 185.108.105.97, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ | 8.02Mb, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: "|13.05Mb", server: 78.47.94.207, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
-  - {name: Pool_ | 8.32Mb, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |22.52Mb, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_ |25.87Mb, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: Pool_ |10.97Mb, server: 82.102.26.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: Pool_ |10.59Mb, server: 185.108.105.97, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |16.29Mb, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: Pool_ |28.37Mb, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ |28.21Mb, server: 82.102.26.117, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: Pool_ |13.37Mb, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |26.36Mb, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ |16.33Mb, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |12.17Mb, server: 91.90.123.125, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: "|17.90Mb", server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_ |16.62Mb, server: 45.134.224.15, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_ |27.09Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: "|16.99Mb", server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Relay_ |38.93Mb, server: jp3.bingbinghouse.com, port: 443, type: trojan, password: 4zoU9iC3Q6LrHezl, sni: jp3.bingbinghouse.com, skip-cert-verify: false}
-  - {name: Pool_ |18.12Mb, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ | 9.95Mb, server: 185.108.105.97, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_ |17.10Mb, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_ |10.57Mb, server: 185.108.105.97, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: "|13.74Mb", server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "|12.12Mb", server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |10.06Mb, server: 185.108.105.97, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Relay_ |17.68Mb, server: hinet1.welsonal.xyz, port: 443, type: trojan, password: Bf775DrodY9LwwEk, sni: hinet1.welsonal.xyz, skip-cert-verify: false}
-  - {name: Pool_ |12.10Mb, server: 91.90.123.125, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 103.fbplay.net:10071, server: 103.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1, server: 54.223.108.178, port: 8000, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
+  - {name: 105.fbplay.net:10071, server: 105.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 3.fbplay.net:10071, server: 3.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: "🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB", server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: 8E7A5E65-4C24-857D-59AD-B74131B7624A, alterId: 0, cipher: auto, tls: false}
+  - {name: 1.fbplay.net:10071, server: 1.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: "🇺🇸 [墙角] 高速-美国-优化-A", server: us2.jjyun.ren, port: 80, type: vmess, uuid: c02bdda9-9d32-435c-81f8-e412884710db, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
+  - {name: "🇺🇸 [墙角] 免流-美国-A", server: us-a.mj.qjnodeip.xyz, port: 80, type: vmess, uuid: c87d0288-e281-4ab2-a9b3-b635446c421b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: qq.com}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3, server: 54.223.108.178, port: 8002, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.108.178}}
+  - {name: "🇺🇸 [墙角] 免流-美国-B", server: us-b.mj.qjnodeip.xyz, port: 80, type: vmess, uuid: c87d0288-e281-4ab2-a9b3-b635446c421b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: qq.com}}
+  - {name: "🇺🇸 [墙角] 高速-美国原生IP-B", server: usyh2.jjyun.ren, port: 80, type: vmess, uuid: c02bdda9-9d32-435c-81f8-e412884710db, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usyh2.jjyun.ren}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6, server: 54.223.108.178, port: 8004, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.108.178}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16, server: 173.230.146.234, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.146.234}}
+  - {name: 22.fbplay.net:10071, server: 22.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 12.servermoa.com:10071, server: 12.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: "🇯🇵 [墙角] 高速-日本-Linode-A", server: jp001.v2net.top, port: 10089, type: vmess, uuid: E539E1A2-3B9A-8245-C025-3434DA700CC3, alterId: 0, cipher: auto, tls: false}
+  - {name: 72.servermoa.com:10071, server: 72.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 7.servermoa.com:10071, server: 7.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 102.fbplay.net:10071, server: 102.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 108.fbplay.net:10071, server: 108.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 🇺🇸 github.com/freefq - 美国3COM公司企业网 10, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  14, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: github.com/freefq - 波兰  11, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
+  - {name: github.com/freefq - 波兰  17, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
+  - {name: 73.servermoa.com:10071, server: 73.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 14.servermoa.com:10071, server: 14.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 🇺🇸 github.com/freefq - 北美地区  5, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 152.servermoa.com:10071, server: 152.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 13.servermoa.com:10071, server: 13.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 109.fbplay.net:10071, server: 109.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 11.servermoa.com:10071, server: 11.servermoa.com, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
+  - {name: github.com/freefq - 欧洲  18, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇮🇳 github.com/freefq - 印度  35, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2, server: 54.223.108.178, port: 8003, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.108.178}}
+  - {name: "🇺🇸 [墙角] 高速-美国原生IP-A", server: usyh1.jjyun.ren, port: 80, type: vmess, uuid: c02bdda9-9d32-435c-81f8-e412884710db, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usyh1.jjyun.ren}}
+  - {name: "🇺🇸 [墙角] 免流-美国原生IP-C", server: usml.52jjy.top, port: 80, type: vmess, uuid: c02bdda9-9d32-435c-81f8-e412884710db, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.52jjy.top}}
+  - {name: 101.fbplay.net:10071, server: 101.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: 🇮🇳 github.com/freefq - 印度  31, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 106.fbplay.net:10071, server: 106.fbplay.net, port: 10071, type: ss, cipher: aes-256-gcm, password: 37bca2c3}
+  - {name: github.com/freefq - 葡萄牙  13, server: 82.102.26.117, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 github.com/freefq - 美国  12, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -646,90 +360,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 8.14Mb"
-      - Relay_ |13.60Mb
-      - Pool_ |17.29Mb
-      - Pool_ |11.89Mb
-      - Pool_ |11.38Mb
-      - Pool_ |11.54Mb
-      - Pool_ |11.43Mb
-      - Pool_ |12.21Mb
-      - Pool_ |12.61Mb
-      - Pool_ |11.01Mb
-      - Pool_ |11.64Mb
-      - Pool_ |11.82Mb
-      - Pool_ |10.66Mb
-      - Pool_ |10.70Mb
-      - Pool_ |11.56Mb
-      - Pool_ |11.91Mb
-      - Pool_ |11.61Mb
-      - Pool_ |11.81Mb
-      - Pool_ |19.23Mb
-      - Pool_ |26.37Mb
-      - Pool_ | 9.52Mb
-      - Pool_ |12.42Mb
-      - Pool_ |10.49Mb
-      - Pool__179 |14.94Mb
-      - Pool_ |14.04Mb
-      - Pool_ |14.30Mb
-      - Pool_ |13.50Mb
-      - Pool_ |12.24Mb
-      - Pool_ |11.70Mb
-      - Pool_ |10.62Mb
-      - Pool_ |10.35Mb
-      - Pool_ |16.91Mb
-      - Pool_ |16.77Mb
-      - Pool_ | 9.35Mb
-      - Pool_ |17.56Mb
-      - Pool_ |11.50Mb
-      - Pool_ |13.74Mb
-      - Pool_ |12.26Mb
-      - Pool_ |11.44Mb
-      - Pool_ | 7.42Mb
-      - "| 8.20Mb"
-      - Pool_ |22.33Mb
-      - Pool_ |10.72Mb
-      - Pool_ |15.33Mb
-      - Pool_ | 9.82Mb
-      - Pool_ |29.37Mb
-      - Pool_ |17.69Mb
-      - Pool_ |17.72Mb
-      - Pool_ | 9.46Mb
-      - Pool_ | 9.29Mb
-      - _109 | 3.32Mb
-      - Pool_ | 9.81Mb
-      - Pool_ |15.35Mb
-      - Pool_ |27.63Mb
-      - Pool_ |27.98Mb
-      - Pool_ |10.32Mb
-      - Pool_ | 8.02Mb
-      - "|13.05Mb"
-      - Pool_ | 8.32Mb
-      - Pool_ |22.52Mb
-      - Pool_ |25.87Mb
-      - Pool_ |10.97Mb
-      - Pool_ |10.59Mb
-      - Pool_ |16.29Mb
-      - Pool_ |28.37Mb
-      - Pool_ |28.21Mb
-      - Pool_ |13.37Mb
-      - Pool_ |26.36Mb
-      - Pool_ |16.33Mb
-      - Pool_ |12.17Mb
-      - "|17.90Mb"
-      - Pool_ |16.62Mb
-      - Pool_ |27.09Mb
-      - "|16.99Mb"
-      - Relay_ |38.93Mb
-      - Pool_ |18.12Mb
-      - Pool_ | 9.95Mb
-      - Pool_ |17.10Mb
-      - Pool_ |10.57Mb
-      - "|13.74Mb"
-      - "|12.12Mb"
-      - Pool_ |10.06Mb
-      - Relay_ |17.68Mb
-      - Pool_ |12.10Mb
+      - 103.fbplay.net:10071
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 1
+      - 105.fbplay.net:10071
+      - 3.fbplay.net:10071
+      - 🇨🇳 [墙角] 高速-台湾-Hinet-DynamicB
+      - 1.fbplay.net:10071
+      - 🇺🇸 [墙角] 高速-美国-优化-A
+      - 🇺🇸 [墙角] 免流-美国-A
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 3
+      - 🇺🇸 [墙角] 免流-美国-B
+      - 🇺🇸 [墙角] 高速-美国原生IP-B
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 6
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 16
+      - 22.fbplay.net:10071
+      - 12.servermoa.com:10071
+      - 🇯🇵 [墙角] 高速-日本-Linode-A
+      - 72.servermoa.com:10071
+      - 7.servermoa.com:10071
+      - 102.fbplay.net:10071
+      - 108.fbplay.net:10071
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 10
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 27
+      - github.com/freefq - 波兰  11
+      - github.com/freefq - 波兰  17
+      - 73.servermoa.com:10071
+      - 14.servermoa.com:10071
+      - 🇺🇸 github.com/freefq - 北美地区  5
+      - 152.servermoa.com:10071
+      - 13.servermoa.com:10071
+      - 109.fbplay.net:10071
+      - 11.servermoa.com:10071
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 20
+      - github.com/freefq - 欧洲  18
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 2
+      - 🇺🇸 [墙角] 高速-美国原生IP-A
+      - 🇺🇸 [墙角] 免流-美国原生IP-C
+      - 101.fbplay.net:10071
+      - 🇮🇳 github.com/freefq - 印度  31
+      - 106.fbplay.net:10071
+      - github.com/freefq - 葡萄牙  13
+      - 🇺🇸 github.com/freefq - 美国  12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
