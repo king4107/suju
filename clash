@@ -5,405 +5,341 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇲 馃嚭馃嚫US_5516, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu}
-  - {name: Pool_ |12.13Mb, server: 91.245.254.29, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |17.59Mb, server: 194.39.127.151, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |30.91Mb, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |15.51Mb, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ |31.29Mb, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ |30.73Mb, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool_ |30.78Mb, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: Pool_ |16.21Mb, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_ |23.20Mb, server: 82.102.26.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: Pool_ |26.57Mb, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |23.60Mb, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |33.28Mb, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: "|12.00Mb", server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
-  - {name: Pool_ |12.15Mb, server: 86.106.90.19, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |12.56Mb, server: 86.106.90.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |21.22Mb, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |11.19Mb, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Relay_ |16.53Mb, server: t7.ssrsub.one, port: 443, type: trojan, password: HIZcILLy, sni: t7.ssrsub.one}
-  - {name: Relay_ |22.85Mb, server: t7.ssrsub.one, port: 443, type: trojan, password: QgMSj7Zi, sni: t7.ssrsub.one}
-  - {name: Relay_ |22.93Mb, server: t7.ssrsub.one, port: 443, type: trojan, password: cNDcfWCf, sni: t7.ssrsub.one}
-  - {name: Pool_ |15.94Mb, server: 37.120.218.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |11.30Mb, server: 37.120.213.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: "|18.41Mb", server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "|23.05Mb", server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "|22.90Mb", server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_ |15.14Mb, server: 193.148.17.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 馃嚟馃嚢HK_2691, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
-  - {name: Pool_ |30.04Mb, server: 37.120.207.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ |13.36Mb, server: 139.28.176.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: Pool_ | 7.04Mb, server: 173.237.207.32, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ | 9.70Mb, server: 173.237.207.32, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |21.86Mb, server: 66.115.177.141, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ |22.66Mb, server: 66.115.177.141, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_ | 8.97Mb, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: "|25.64Mb", server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
-  - {name: "|25.65Mb", server: 154.17.2.217, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "|26.16Mb", server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
-  - {name: "|25.11Mb", server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "|22.22Mb", server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: Pool_ |11.77Mb, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: "|10.96Mb", server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: "|32.31Mb", server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: "|13.82Mb", server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: "|28.33Mb", server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: "|24.17Mb", server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: "| 9.13Mb", server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: "|23.31Mb", server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: "|21.46Mb", server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: "| 9.94Mb", server: 173.237.207.64, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: "| 9.02Mb", server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: "|24.66Mb", server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: "|39.05Mb", server: 13.76.247.91, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: "", server: 204.124.181.118, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: " 2", server: 23.83.227.198, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: "|28.34Mb", server: jp3.bingbinghouse.com, port: 443, type: trojan, password: 4zoU9iC3Q6LrHezl, sni: jp3.bingbinghouse.com}
+  - {name: "|16.46Mb", server: 37.120.218.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "|10.83Mb", server: 37.120.218.21, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: "|16.81Mb", server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "| 8.69Mb", server: 212.102.36.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 music.desperadoj.com:30003, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: "|26.67Mb", server: opt14.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 134352:zMhpAK, obfs-param: download.windowsupdate.com}
+  - {name: "|19.24Mb", server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "|22.49Mb", server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "|11.82Mb", server: 185.108.106.146, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "|12.12Mb", server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: "|10.98Mb", server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: NONE, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
+  - {name: "|10.86Mb", server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: "|31.17Mb", server: 185.217.71.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: NONE 2, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga}
+  - {name: "|13.72Mb", server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "|21.84Mb", server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: "|24.20Mb", server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "|12.42Mb", server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: "| 9.60Mb", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: "|20.42Mb", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: NONE 3, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -426,51 +362,43 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 馃嚭馃嚫US_4818 |25.09Mb
-      - 🇺🇲 馃嚭馃嚫US_4821 |25.55Mb
-      - 🇺🇲 馃嚭馃嚫US_5516
-      - Pool_ |12.13Mb
-      - Pool_ |17.59Mb
-      - Pool_ |30.91Mb
-      - Pool_ |15.51Mb
-      - Pool_ |31.29Mb
-      - Pool_ |30.73Mb
-      - Pool_ |30.78Mb
-      - Pool_ |16.21Mb
-      - Pool_ |23.20Mb
-      - Pool_ |26.57Mb
-      - Pool_ |23.60Mb
-      - Pool_ |33.28Mb
-      - "|12.00Mb"
-      - Pool_ |12.15Mb
-      - Pool_ |12.56Mb
-      - Pool_ |21.22Mb
-      - Pool_ |11.19Mb
-      - Relay_ |16.53Mb
-      - Relay_ |22.85Mb
-      - Relay_ |22.93Mb
-      - Pool_ |15.94Mb
-      - Pool_ |11.30Mb
-      - "|18.41Mb"
-      - "|23.05Mb"
-      - "|22.90Mb"
-      - Pool_ |15.14Mb
-      - 🇭🇰 馃嚟馃嚢HK_2691
-      - Pool_ |30.04Mb
-      - Pool_ |13.36Mb
-      - Pool_ | 7.04Mb
-      - Pool_ | 9.70Mb
-      - Pool_ |21.86Mb
-      - Pool_ |22.66Mb
-      - 🇺🇲 Pool_馃嚭馃嚫US_4815 |22.82Mb
-      - Pool_ | 8.97Mb
-      - "|25.64Mb"
-      - "|25.65Mb"
-      - "|26.16Mb"
-      - "|25.11Mb"
-      - "|22.22Mb"
-      - Pool_ |11.77Mb
-      - 🇺🇲 馃嚭馃嚫US_5421 |25.77Mb
+      - "|10.96Mb"
+      - "|32.31Mb"
+      - "|13.82Mb"
+      - "|28.33Mb"
+      - "|24.17Mb"
+      - "| 9.13Mb"
+      - "|23.31Mb"
+      - "|21.46Mb"
+      - "| 9.94Mb"
+      - "| 9.02Mb"
+      - "|24.66Mb"
+      - "|39.05Mb"
+      - ""
+      - " 2"
+      - "|28.34Mb"
+      - "|16.46Mb"
+      - "|10.83Mb"
+      - "|16.81Mb"
+      - "| 8.69Mb"
+      - 🇺🇲 music.desperadoj.com:30003
+      - "|26.67Mb"
+      - "|19.24Mb"
+      - "|22.49Mb"
+      - "|11.82Mb"
+      - "|12.12Mb"
+      - "|10.98Mb"
+      - NONE
+      - "|10.86Mb"
+      - "|31.17Mb"
+      - NONE 2
+      - "|13.72Mb"
+      - "|21.84Mb"
+      - "|24.20Mb"
+      - "|12.42Mb"
+      - "| 9.60Mb"
+      - "|20.42Mb"
+      - NONE 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
