@@ -5,245 +5,333 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: Pool_ | 9.53Mb, server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool__10 |13.87Mb, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ | 8.40Mb, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ | 3.33Mb, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: Pool_ | 8.72Mb, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Relay_ | 4.82Mb, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN_892, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 CN_893, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: Relay_ | 5.99Mb, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: Relay_ | 5.15Mb, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: Relay_ | 7.57Mb, server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: Relay_ | 5.43Mb, server: p2.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 🇨🇳 CN_907, server: gzyd.dasaric.pw, port: 6005, type: ssr, cipher: chacha20-ietf, password: gaLgrz, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 109544:95fbvQ, obfs-param: 8acb8109544.microsoft.com}
-  - {name: Relay_ | 7.68Mb, server: 58.62.84.73, port: 10086, type: ss, cipher: aes-256-cfb, password: !<str> 2333}
-  - {name: Relay_ |11.67Mb, server: p8.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: "|11.84Mb", server: 136.243.158.13, port: 4040, type: ss, cipher: aes-256-gcm, password: BsNmpzet3AnY}
-  - {name: 🇭🇰 HK_2633, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
-  - {name: Pool_ |27.26Mb, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ |23.20Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: Pool_ |21.88Mb, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ |15.92Mb, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ |16.61Mb, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Relay_ |17.86Mb, server: 13.250.29.151, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: "|13.68Mb", server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_ |13.30Mb, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6548, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6582, server: 207.244.84.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6595, server: 209.216.92.222, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇲 馃嚭馃嚫US_6611, server: 51.81.35.164, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ZZhXtk2j8T0Y}
+  - {name: 🇺🇲 馃嚭馃嚫US_6621, server: 51.81.35.164, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6684, server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6688, server: 212.102.44.98, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6689, server: 23.105.160.138, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6700, server: 212.102.44.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6718, server: 212.102.46.65, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6719, server: 212.102.44.98, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6751, server: 23.105.160.138, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6777, server: 209.216.92.200, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_6780, server: 212.102.46.65, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇲 馃嚭馃嚫US_6865, server: 213.59.118.169, port: 13245, type: vmess, uuid: 8425f0fd-8cf9-42f3-a241-3fd44c591c8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 213.59.118.169}}
+  - {name: Pool_馃弫ZZ_7062, server: 138.199.42.163, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Pool_馃弫ZZ_7065, server: 138.199.42.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool_馃弫ZZ_7079, server: 138.199.42.161, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: Pool_馃弫ZZ_7091, server: 138.199.42.163, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: Pool_馃弫ZZ_7106, server: 138.199.42.161, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool_馃弫ZZ_7170, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool_馃弫ZZ_7179, server: 138.199.42.161, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: Pool_馃弫ZZ_7181, server: 138.199.40.172, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: Pool_馃弫ZZ_7195, server: 138.199.42.163, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: Pool_馃弫ZZ_7201, server: 138.199.42.161, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Pool_馃弫ZZ_7260, server: 138.199.19.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_馃弫ZZ_7265, server: 138.199.42.163, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: Pool_馃弫ZZ_7283, server: 138.199.42.163, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: Pool_馃弫ZZ_7341, server: 138.199.42.163, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: Pool_馃弫ZZ_7347, server: 138.199.42.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: "| 5.19Mb", server: 213.59.118.169, port: 13245, type: vmess, uuid: 8425f0fd-8cf9-42f3-a241-3fd44c591c8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 213.59.118.169}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb, server: 209.216.92.3, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Pool_ |11.58Mb, server: 209.216.92.3, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: Pool_ |22.37Mb, server: 138.199.42.163, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087, server: ss6.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -266,31 +354,42 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_ | 9.53Mb
-      - Pool__10 |13.87Mb
-      - Pool_ | 8.40Mb
-      - Pool_ | 3.33Mb
-      - Pool_ | 8.72Mb
-      - Relay_ | 4.82Mb
-      - 🇨🇳 CN_892
-      - 🇨🇳 CN_893
-      - Relay_ | 5.99Mb
-      - Relay_ | 5.15Mb
-      - Relay_ | 7.57Mb
-      - Relay_ | 5.43Mb
-      - 🇨🇳 CN_907
-      - Relay_ | 7.68Mb
-      - Relay_ |11.67Mb
-      - "|11.84Mb"
-      - 🇭🇰 HK_2633
-      - Pool_ |27.26Mb
-      - Pool_ |23.20Mb
-      - Pool_ |21.88Mb
-      - Pool_ |15.92Mb
-      - Pool_ |16.61Mb
-      - Relay_ |17.86Mb
-      - "|13.68Mb"
-      - Pool_ |13.30Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_6548
+      - 🇺🇲 Pool_馃嚭馃嚫US_6582
+      - 🇺🇲 Pool_馃嚭馃嚫US_6595
+      - 🇺🇲 馃嚭馃嚫US_6611
+      - 🇺🇲 馃嚭馃嚫US_6621
+      - 🇺🇲 Pool_馃嚭馃嚫US_6684
+      - 🇺🇲 Pool_馃嚭馃嚫US_6688
+      - 🇺🇲 Pool_馃嚭馃嚫US_6689
+      - 🇺🇲 Pool_馃嚭馃嚫US_6700
+      - 🇺🇲 Pool_馃嚭馃嚫US_6718
+      - 🇺🇲 Pool_馃嚭馃嚫US_6719
+      - 🇺🇲 Pool_馃嚭馃嚫US_6751
+      - 🇺🇲 Pool_馃嚭馃嚫US_6777
+      - 🇺🇲 Pool_馃嚭馃嚫US_6780
+      - 🇺🇲 馃嚭馃嚫US_6865
+      - Pool_馃弫ZZ_7062
+      - Pool_馃弫ZZ_7065
+      - Pool_馃弫ZZ_7079
+      - Pool_馃弫ZZ_7091
+      - Pool_馃弫ZZ_7106
+      - Pool_馃弫ZZ_7170
+      - Pool_馃弫ZZ_7179
+      - Pool_馃弫ZZ_7181
+      - Pool_馃弫ZZ_7195
+      - Pool_馃弫ZZ_7201
+      - Pool_馃弫ZZ_7260
+      - Pool_馃弫ZZ_7265
+      - Pool_馃弫ZZ_7283
+      - Pool_馃弫ZZ_7341
+      - Pool_馃弫ZZ_7347
+      - "| 5.19Mb"
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2623 |33.46Mb
+      - 🇺🇲 Pool_馃嚭馃嚫US_5405 |11.07Mb
+      - Pool_ |11.58Mb
+      - Pool_ |22.37Mb
+      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚚馃嚘CA_5087
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
