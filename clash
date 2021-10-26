@@ -3,703 +3,223 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4851, server: 84.17.37.158, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10932, server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4820, server: 84.17.57.71, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4871, server: 84.17.37.158, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4889, server: 212.102.42.89, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4878, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10880, server: 2.58.241.133, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10810, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4886, server: 212.102.42.89, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10763, server: 2.58.242.54, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4905, server: 84.17.37.158, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10879, server: 2.58.241.45, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4866, server: 212.102.42.89, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_11025, server: 2.58.242.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 馃嚬馃嚰TW_11057, server: 2.58.241.44, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4902, server: 84.17.57.73, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_10016, server: 89.187.163.217, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10570, server: 2.58.241.133, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10847, server: 2.58.242.43, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇯🇵 Pool_馃嚡馃嚨JP_6588, server: 89.187.161.241, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10901, server: 2.58.241.29, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10960, server: 2.58.241.44, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4830, server: 84.17.37.158, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10592, server: 2.58.241.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10682, server: 2.58.241.131, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10787, server: 2.58.241.46, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4867, server: 84.17.57.68, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4876, server: 84.17.37.158, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10713, server: 2.58.241.46, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4849, server: 212.102.42.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4859, server: 212.102.42.194, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4906, server: 212.102.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4928, server: 212.102.42.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10859, server: 2.58.241.133, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4834, server: 84.17.37.158, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10888, server: 2.58.241.131, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4821, server: 212.102.42.89, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4845, server: 84.17.37.154, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4904, server: 212.102.42.89, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4863, server: 212.102.42.89, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4839, server: 84.17.57.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10875, server: 2.58.241.46, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10710, server: 2.58.242.54, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10830, server: 2.58.241.133, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4899, server: 212.102.42.89, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_9998, server: 89.187.163.217, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4880, server: 84.17.37.158, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇰🇷 Pool_馃嚢馃嚪KR_6651, server: 103.249.31.26, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10895, server: 2.58.242.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4897, server: 212.102.42.89, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4857, server: 212.102.42.89, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇰🇷 馃嚢馃嚪KR_6717, server: 103.249.31.29, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4847, server: 212.102.42.89, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇰🇷 Pool_馃嚢馃嚪KR_6757, server: 103.249.31.26, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇰🇷 馃嚢馃嚪KR_6763, server: 103.249.31.29, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_9979, server: 89.187.162.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4861, server: 212.102.42.89, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇰🇷 Pool_馃嚢馃嚪KR_6684, server: 103.249.31.26, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4827, server: 84.17.37.158, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇰🇷 Pool_馃嚢馃嚪KR_6675, server: 103.249.31.26, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇨🇳 Pool_馃嚬馃嚰TW_10488, server: 2.58.241.133, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_13805, server: 84.17.41.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇰🇷 馃嚢馃嚪KR_6654, server: 103.249.31.29, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_9967, server: 89.187.162.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4893, server: 212.102.42.201, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_13335, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_11468, server: 89.187.187.76, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_13427, server: 84.17.41.75, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111, server: 101.67.7.29, port: 25033, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 Pool_馃嚭馃嚫US_12995, server: 192.111.134.195, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155, server: icajm.moox.icu, port: 40001, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4910, server: 212.102.42.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4840, server: 212.102.42.204, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_10021, server: 89.187.163.132, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10851, server: 2.58.241.46, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4901, server: 84.17.37.158, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4900, server: 212.102.42.196, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4836, server: 84.17.37.158, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_10024, server: 89.187.163.217, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇨🇳 馃嚬馃嚰TW_10679, server: 2.58.241.46, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4853, server: 84.17.37.158, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_4912, server: 84.17.37.158, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017, server: icajm.moox.icu, port: 40001, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}, udp: true}
+  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526, server: 5.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
+  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501, server: 23.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
+  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614, server: 201.fbplay.net, port: 10026, type: ss, cipher: aes-256-gcm, password: 4c59b800, udp: true}
+  - {name: (已存活3天)美国-1.21MB/s, server: 66.115.177.141, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: 美国（欢迎订阅youtube：8度科技）, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (已存活3天)加拿大-1.73MB/s, server: 134.195.196.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国（欢迎订阅youtube：8度科技） 2, server: 134.195.196.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国（欢迎订阅youtube：8度科技） 3, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国洛杉矶（欢迎订阅youtube：8度科%, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036, server: rxzgzq.moox.icu, port: 41025, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}, udp: true}
+  - {name: (已存活13天)西班牙-2.94MB/s, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (已存活8天)加拿大-2.43MB/s, server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (已存活18天)美国-2.89MB/s, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076, server: rxzgzq.moox.icu, port: 34004, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hinetddns.qiqifamily.top}, udp: true}
+  - {name: 美国洛杉矶（欢迎订阅youtube：8度科% 2, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041, server: 101.67.7.29, port: 25044, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_馃嚟馃嚢HK_4730, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚡馃嚨JP_6447, server: 146.56.187.13, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.187.13}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033, server: 120.240.86.53, port: 31262, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094, server: 120.232.173.88, port: 35786, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚟馃嚢HK_4790, server: 18.163.112.47, port: 443, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -722,88 +242,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4851
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10932
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4820
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4871
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4889
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4878
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10880
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10810
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4886
-      - 🇨🇳 馃嚬馃嚰TW_10763
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4905
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10879
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4866
-      - 🇨🇳 Pool_馃嚬馃嚰TW_11025
-      - 🇨🇳 馃嚬馃嚰TW_11057
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4902
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10016
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10570
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10847
-      - 🇯🇵 Pool_馃嚡馃嚨JP_6588
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10901
-      - 🇨🇳 馃嚬馃嚰TW_10960
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4830
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10592
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10682
-      - 🇨🇳 馃嚬馃嚰TW_10787
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4867
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4876
-      - 🇨🇳 馃嚬馃嚰TW_10713
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4849
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4906
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4928
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10859
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4834
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10888
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4821
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4845
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4904
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4863
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4839
-      - 🇨🇳 馃嚬馃嚰TW_10875
-      - 🇨🇳 馃嚬馃嚰TW_10710
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10830
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4899
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9998
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4880
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6651
-      - 🇨🇳 馃嚬馃嚰TW_10895
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4897
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4857
-      - 🇰🇷 馃嚢馃嚪KR_6717
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4847
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6757
-      - 🇰🇷 馃嚢馃嚪KR_6763
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9979
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4861
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6684
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4827
-      - 🇰🇷 Pool_馃嚢馃嚪KR_6675
-      - 🇨🇳 Pool_馃嚬馃嚰TW_10488
-      - 🇺🇲 Pool_馃嚭馃嚫US_13805
-      - 🇰🇷 馃嚢馃嚪KR_6654
-      - 🇸🇬 Pool_馃嚫馃嚞SG_9967
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4893
-      - 🇺🇲 Pool_馃嚭馃嚫US_13335
-      - 🇺🇲 Pool_馃嚭馃嚫US_11468
-      - 🇺🇲 Pool_馃嚭馃嚫US_13427
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2111
-      - 🇺🇲 Pool_馃嚭馃嚫US_12995
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2155
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4910
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4840
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10021
-      - 🇨🇳 馃嚬馃嚰TW_10851
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4901
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4900
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4836
-      - 🇸🇬 Pool_馃嚫馃嚞SG_10024
-      - 🇨🇳 馃嚬馃嚰TW_10679
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4853
-      - 🇭🇰 Pool_馃嚟馃嚢HK_4912
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
+      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
+      - (已存活3天)美国-1.21MB/s
+      - 美国（欢迎订阅youtube：8度科技）
+      - (已存活3天)加拿大-1.73MB/s
+      - 美国（欢迎订阅youtube：8度科技） 2
+      - 美国（欢迎订阅youtube：8度科技） 3
+      - 美国洛杉矶（欢迎订阅youtube：8度科%
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
+      - (已存活13天)西班牙-2.94MB/s
+      - (已存活8天)加拿大-2.43MB/s
+      - (已存活18天)美国-2.89MB/s
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
+      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
+      - Pool_馃嚟馃嚢HK_4730
+      - 馃嚡馃嚨JP_6447
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
+      - 馃嚟馃嚢HK_4790
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
