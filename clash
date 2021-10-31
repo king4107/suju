@@ -3,223 +3,775 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017, server: icajm.moox.icu, port: 40001, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}, udp: true}
-  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526, server: 5.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
-  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501, server: 23.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
-  - {name: Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614, server: 201.fbplay.net, port: 10026, type: ss, cipher: aes-256-gcm, password: 4c59b800, udp: true}
-  - {name: (已存活3天)美国-1.21MB/s, server: 66.115.177.141, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: 美国（欢迎订阅youtube：8度科技）, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活3天)加拿大-1.73MB/s, server: 134.195.196.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（欢迎订阅youtube：8度科技） 2, server: 134.195.196.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（欢迎订阅youtube：8度科技） 3, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国洛杉矶（欢迎订阅youtube：8度科%, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036, server: rxzgzq.moox.icu, port: 41025, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}, udp: true}
-  - {name: (已存活13天)西班牙-2.94MB/s, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (已存活8天)加拿大-2.43MB/s, server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活18天)美国-2.89MB/s, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076, server: rxzgzq.moox.icu, port: 34004, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hinetddns.qiqifamily.top}, udp: true}
-  - {name: 美国洛杉矶（欢迎订阅youtube：8度科% 2, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041, server: 101.67.7.29, port: 25044, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Pool_馃嚟馃嚢HK_4730, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚡馃嚨JP_6447, server: 146.56.187.13, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.187.13}, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033, server: 120.240.86.53, port: 31262, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094, server: 120.232.173.88, port: 35786, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 馃嚟馃嚢HK_4790, server: 18.163.112.47, port: 443, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8772, server: 89.187.162.186, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8796, server: 89.187.162.186, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8725, server: 89.187.163.217, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8777, server: 89.187.162.186, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8782, server: 89.187.162.186, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8676, server: 89.187.162.186, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8723, server: 89.187.162.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8706, server: 89.187.162.186, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8697, server: 89.187.162.186, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8699, server: 89.187.163.217, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8672, server: 89.187.163.217, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8673, server: 89.187.163.217, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8677, server: 89.187.163.217, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8729, server: 89.187.162.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8749, server: 89.187.163.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8760, server: 89.187.162.186, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8686, server: 89.187.163.217, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8713, server: 89.187.162.186, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8753, server: 89.187.162.186, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8690, server: 89.187.163.217, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8700, server: 89.187.162.186, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8681, server: 89.187.162.186, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8684, server: 89.187.162.186, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8694, server: 89.187.163.217, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8709, server: 89.187.163.200, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8704, server: 89.187.163.217, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8758, server: 89.187.163.217, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 馃嚫馃嚞SG_8766, server: 172.105.114.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8687, server: 89.187.163.217, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8682, server: 89.187.162.186, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8740, server: 89.187.163.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8674, server: 89.187.163.217, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8737, server: 89.187.163.195, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8678, server: 89.187.163.217, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8702, server: 89.187.163.200, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8784, server: 89.187.163.202, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8770, server: 89.187.163.195, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8750, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8768, server: 89.187.163.195, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8691, server: 89.187.163.200, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8793, server: 89.187.163.217, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8739, server: 89.187.163.195, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8712, server: 217.197.161.150, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8715, server: 217.197.161.150, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8743, server: 217.197.161.150, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8752, server: 217.197.161.150, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8792, server: 217.197.161.150, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8695, server: 89.187.163.195, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8727, server: 217.197.161.150, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8734, server: 217.197.161.150, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8738, server: 217.197.161.150, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8771, server: 217.197.161.150, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8675, server: 89.187.163.195, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8669, server: 89.187.163.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8670, server: 89.187.163.195, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8680, server: 89.187.163.195, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8705, server: 89.187.163.195, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8718, server: 89.187.163.195, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8735, server: 89.187.163.217, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8736, server: 89.187.163.197, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8717, server: 89.187.162.186, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8778, server: 89.187.163.207, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8773, server: 89.187.163.210, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8756, server: 89.187.163.217, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8698, server: 89.187.162.184, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8786, server: 89.187.162.186, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8719, server: 89.187.162.186, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8776, server: 89.187.163.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8791, server: 89.187.162.186, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8795, server: 89.187.163.210, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8731, server: 89.187.162.186, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8733, server: 89.187.163.217, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8789, server: 89.187.163.217, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8679, server: 89.187.163.217, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8754, server: 89.187.162.186, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8759, server: 89.187.163.212, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8781, server: 89.187.162.186, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8798, server: 89.187.162.186, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8721, server: 89.187.162.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8742, server: 89.187.162.186, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8693, server: 89.187.162.186, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8720, server: 89.187.163.217, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8765, server: 89.187.163.195, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8711, server: 89.187.163.195, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8714, server: 89.187.163.195, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8722, server: 89.187.163.195, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8724, server: 89.187.163.195, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8696, server: 89.187.163.195, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8747, server: 89.187.163.195, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8755, server: 89.187.163.195, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇸🇬 Pool_馃嚫馃嚞SG_8689, server: 89.187.163.195, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,28 +794,97 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2017
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6526
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6501
-      - Relay_馃嚢馃嚪KR-馃嚢馃嚪KR_6614
-      - (已存活3天)美国-1.21MB/s
-      - 美国（欢迎订阅youtube：8度科技）
-      - (已存活3天)加拿大-1.73MB/s
-      - 美国（欢迎订阅youtube：8度科技） 2
-      - 美国（欢迎订阅youtube：8度科技） 3
-      - 美国洛杉矶（欢迎订阅youtube：8度科%
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2036
-      - (已存活13天)西班牙-2.94MB/s
-      - (已存活8天)加拿大-2.43MB/s
-      - (已存活18天)美国-2.89MB/s
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2076
-      - 美国洛杉矶（欢迎订阅youtube：8度科% 2
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2041
-      - Pool_馃嚟馃嚢HK_4730
-      - 馃嚡馃嚨JP_6447
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_2033
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2094
-      - 馃嚟馃嚢HK_4790
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8772
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8796
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8725
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8777
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8782
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8676
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8723
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8706
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8697
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8699
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8672
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8673
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8677
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8729
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8749
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8760
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8686
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8713
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8753
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8690
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8700
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8681
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8684
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8694
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8709
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8704
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8758
+      - 🇸🇬 馃嚫馃嚞SG_8766
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8687
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8682
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8740
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8674
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8737
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8678
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8702
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8784
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8770
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8750
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8768
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8691
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8793
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8739
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8712
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8715
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8743
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8752
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8792
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8695
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8727
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8734
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8738
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8771
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8675
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8669
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8670
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8680
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8705
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8718
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8735
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8736
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8717
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8778
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8773
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8756
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8698
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8786
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8719
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8776
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8791
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8795
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8731
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8733
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8789
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8679
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8754
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8759
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8781
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8798
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8721
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8742
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8693
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8720
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8765
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8711
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8714
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8722
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8724
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8696
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8747
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8755
+      - 🇸🇬 Pool_馃嚫馃嚞SG_8689
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
