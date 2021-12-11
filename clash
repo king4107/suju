@@ -5,105 +5,69 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '馃嚭馃嚫US_1099', server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '馃嚭馃嚫US_1384', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '馃嚭馃嚫US_1160', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚭馃嚫US_1387', server: 142.202.48.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚚馃嚘CA_181', server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚭馃嚫US_1721', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚭馃嚫US_1723', server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚚馃嚘CA_209', server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚚馃嚘CA_112', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '馃嚭馃嚫US_1143', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1208', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1361', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '馃嚭馃嚫US_1020', server: 38.91.100.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚚馃嚘CA_171', server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1325', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1853', server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '馃嚭馃嚫US_1667', server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚚馃嚘CA_187', server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚭馃嚫US_1126', server: 38.91.100.130, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1832', server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚭馃嚫US_977', server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚭馃嚫US_1730', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '馃嚚馃嚘CA_161', server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1854', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '馃嚭馃嚫US_979', server: 38.91.100.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1217', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚚馃嚘CA_132', server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '馃嚚馃嚘CA_157', server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_1097', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '馃弫ZZ_1921', server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '馃弫ZZ_1948', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃嚡馃嚨JP_511', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃嚡馃嚨JP_508', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '馃嚡馃嚨JP_513', server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '馃弫ZZ_1934', server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '馃嚡馃嚨JP_539', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '馃嚭馃嚫US_1190', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃嚭馃嚫US_1646', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '馃弫ZZ_1965', server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_馃嚞馃嚙GB-馃嚞馃嚙GB_358', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
+  - {name: '馃嚦馃嚤NL_576', server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '馃嚭馃嚫US_1122', server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃嚡馃嚨JP_549', server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '馃嚛馃嚜DE_275', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃弫ZZ_2016', server: 134.195.196.107, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '馃嚭馃嚫US_1746', server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 馃嚭馃嚫US_1099
-      - 馃嚭馃嚫US_1384
-      - 馃嚭馃嚫US_1160
-      - 馃嚭馃嚫US_1387
-      - 馃嚚馃嚘CA_181
-      - 馃嚭馃嚫US_1721
-      - 馃嚭馃嚫US_1723
-      - 馃嚚馃嚘CA_209
-      - 馃嚚馃嚘CA_112
-      - 馃嚭馃嚫US_1143
-      - 馃嚭馃嚫US_1208
-      - 馃嚭馃嚫US_1361
-      - 馃嚭馃嚫US_1020
-      - 馃嚚馃嚘CA_171
-      - 馃嚭馃嚫US_1325
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1853
-      - 馃嚭馃嚫US_1667
-      - 馃嚚馃嚘CA_187
-      - 馃嚭馃嚫US_1126
-      - 馃嚭馃嚫US_1832
-      - 馃嚭馃嚫US_977
-      - 馃嚭馃嚫US_1730
-      - 馃嚚馃嚘CA_161
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1854
-      - 馃嚭馃嚫US_979
-      - 馃嚭馃嚫US_1217
-      - 馃嚚馃嚘CA_132
-      - 馃嚚馃嚘CA_157
-      - 馃嚭馃嚫US_1097
+      - 馃弫ZZ_1921
+      - 馃弫ZZ_1948
+      - 馃嚡馃嚨JP_511
+      - 馃嚡馃嚨JP_508
+      - 馃嚡馃嚨JP_513
+      - 馃弫ZZ_1934
+      - 馃嚡馃嚨JP_539
+      - 馃嚭馃嚫US_1190
+      - 馃嚭馃嚫US_1646
+      - 馃弫ZZ_1965
+      - Relay_馃嚞馃嚙GB-馃嚞馃嚙GB_358
+      - 馃嚦馃嚤NL_576
+      - 馃嚭馃嚫US_1122
+      - 馃嚡馃嚨JP_549
+      - 馃嚛馃嚜DE_275
+      - 馃弫ZZ_2016
+      - 馃嚭馃嚫US_1746
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 馃嚭馃嚫US_1099
-      - 馃嚭馃嚫US_1384
-      - 馃嚭馃嚫US_1160
-      - 馃嚭馃嚫US_1387
-      - 馃嚚馃嚘CA_181
-      - 馃嚭馃嚫US_1721
-      - 馃嚭馃嚫US_1723
-      - 馃嚚馃嚘CA_209
-      - 馃嚚馃嚘CA_112
-      - 馃嚭馃嚫US_1143
-      - 馃嚭馃嚫US_1208
-      - 馃嚭馃嚫US_1361
-      - 馃嚭馃嚫US_1020
-      - 馃嚚馃嚘CA_171
-      - 馃嚭馃嚫US_1325
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1853
-      - 馃嚭馃嚫US_1667
-      - 馃嚚馃嚘CA_187
-      - 馃嚭馃嚫US_1126
-      - 馃嚭馃嚫US_1832
-      - 馃嚭馃嚫US_977
-      - 馃嚭馃嚫US_1730
-      - 馃嚚馃嚘CA_161
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1854
-      - 馃嚭馃嚫US_979
-      - 馃嚭馃嚫US_1217
-      - 馃嚚馃嚘CA_132
-      - 馃嚚馃嚘CA_157
-      - 馃嚭馃嚫US_1097
+      - 馃弫ZZ_1921
+      - 馃弫ZZ_1948
+      - 馃嚡馃嚨JP_511
+      - 馃嚡馃嚨JP_508
+      - 馃嚡馃嚨JP_513
+      - 馃弫ZZ_1934
+      - 馃嚡馃嚨JP_539
+      - 馃嚭馃嚫US_1190
+      - 馃嚭馃嚫US_1646
+      - 馃弫ZZ_1965
+      - Relay_馃嚞馃嚙GB-馃嚞馃嚙GB_358
+      - 馃嚦馃嚤NL_576
+      - 馃嚭馃嚫US_1122
+      - 馃嚡馃嚨JP_549
+      - 馃嚛馃嚜DE_275
+      - 馃弫ZZ_2016
+      - 馃嚭馃嚫US_1746
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,35 +85,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃嚭馃嚫US_1099
-      - 馃嚭馃嚫US_1384
-      - 馃嚭馃嚫US_1160
-      - 馃嚭馃嚫US_1387
-      - 馃嚚馃嚘CA_181
-      - 馃嚭馃嚫US_1721
-      - 馃嚭馃嚫US_1723
-      - 馃嚚馃嚘CA_209
-      - 馃嚚馃嚘CA_112
-      - 馃嚭馃嚫US_1143
-      - 馃嚭馃嚫US_1208
-      - 馃嚭馃嚫US_1361
-      - 馃嚭馃嚫US_1020
-      - 馃嚚馃嚘CA_171
-      - 馃嚭馃嚫US_1325
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1853
-      - 馃嚭馃嚫US_1667
-      - 馃嚚馃嚘CA_187
-      - 馃嚭馃嚫US_1126
-      - 馃嚭馃嚫US_1832
-      - 馃嚭馃嚫US_977
-      - 馃嚭馃嚫US_1730
-      - 馃嚚馃嚘CA_161
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1854
-      - 馃嚭馃嚫US_979
-      - 馃嚭馃嚫US_1217
-      - 馃嚚馃嚘CA_132
-      - 馃嚚馃嚘CA_157
-      - 馃嚭馃嚫US_1097
+      - 馃弫ZZ_1921
+      - 馃弫ZZ_1948
+      - 馃嚡馃嚨JP_511
+      - 馃嚡馃嚨JP_508
+      - 馃嚡馃嚨JP_513
+      - 馃弫ZZ_1934
+      - 馃嚡馃嚨JP_539
+      - 馃嚭馃嚫US_1190
+      - 馃嚭馃嚫US_1646
+      - 馃弫ZZ_1965
+      - Relay_馃嚞馃嚙GB-馃嚞馃嚙GB_358
+      - 馃嚦馃嚤NL_576
+      - 馃嚭馃嚫US_1122
+      - 馃嚡馃嚨JP_549
+      - 馃嚛馃嚜DE_275
+      - 馃弫ZZ_2016
+      - 馃嚭馃嚫US_1746
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
