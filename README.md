@@ -36,6 +36,6 @@ IDM：
 天梯图：
 [手机CPU性能](https://www.mydrivers.com/zhuanti/tianti/01/index.html)；
 [桌面CPU性能](https://www.mydrivers.com/zhuanti/tianti/cpu/index.html)；
+[笔记本CPU性能](https://www.mydrivers.com/zhuanti/tianti/cpum/index.html)；
 [桌面显卡性能](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)；
 [笔记本显卡性能](https://www.mydrivers.com/zhuanti/tianti/gpum/index.html)；
-[笔记本CPN性能](https://www.mydrivers.com/zhuanti/tianti/cpum/index.html)；
