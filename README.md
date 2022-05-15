@@ -2,6 +2,9 @@
 测速：
 [Speedtest](https://www.speedtest.cn/)
 
+IP地址:
+[IP](http://ip111.cn/)
+
 节点池：
 [heroku](https://sspool.herokuapp.com/)；
 [碧海](https://proxies.bihai.cf/)；
