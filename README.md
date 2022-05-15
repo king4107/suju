@@ -37,3 +37,8 @@
 [temp](https://temp-mail.org/zh/)
 
 [10minut](https://10minutemail.org/m/)
+
+IDM
+
+[lrepacks](https://lrepacks.net/)
+
