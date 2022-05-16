@@ -35,8 +35,8 @@ IP地址:
 [motrix](https://motrix.app/zh-CN)
 
 Windows：
-[Windows10](https://www.microsoft.com/en-au/software-download/windows10)
-
+[Windows10](https://www.microsoft.com/en-au/software-download/windows10)；
+[Edge](https://www.microsoftedgeinsider.com/zh-cn/download)
 
 上网工具：
 [工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)
