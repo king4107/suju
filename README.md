@@ -29,7 +29,8 @@ IP地址:
 [10minut](https://10minutemail.org/m/)
 
 下载器：
-[IDM](https://lrepacks.net/)；
+[IDM](https://www.internetdownloadmanager.com/)；
+[lrepacksIDM](https://lrepacks.net/)；
 [XDM](https://xtremedownloadmanager.com/)；
 [FDM](https://www.freedownloadmanager.org/zh/)；
 [xdown](https://www.xdown.org/)；
