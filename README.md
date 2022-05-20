@@ -1,6 +1,7 @@
 # jiedian
 测速：
-[Speedtest](https://www.speedtest.cn/)
+[Speedtest](https://www.speedtest.cn/)；
+[badukeji](http://badukeji.speedtestcustom.com/)
 
 IP地址:
 [IP](http://ip111.cn/)
