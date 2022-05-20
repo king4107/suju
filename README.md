@@ -40,7 +40,8 @@ Windows：
 [Edge](https://www.microsoftedgeinsider.com/zh-cn/download)
 
 上网工具：
-[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)
+[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)；
+[工具网站](https://v2rayse.com/)
 
 天梯图：
 [手机CPU性能](https://www.mydrivers.com/zhuanti/tianti/01/index.html)；
