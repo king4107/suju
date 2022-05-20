@@ -43,7 +43,8 @@ Windows：
 [工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)；
 [工具网站](https://v2rayse.com/)；
 [ClashrAuto](https://github.com/ClashrAuto/Clashr-Auto-Desktop)；
-[小三加速器](https://github.com/sharmajv/vpn)【[下载](https://pan.baidu.com/s/1fy6N--VoCLN-GvU-FDQweg?pwd=v8e8)】
+[小三加速器](https://github.com/sharmajv/vpn)【[下载](https://pan.baidu.com/s/1fy6N--VoCLN-GvU-FDQweg?pwd=v8e8)】；
+[火箭加速器](https://github.com/crosserR/shadowrocket-VPN)
 
 天梯图：
 [手机CPU性能](https://www.mydrivers.com/zhuanti/tianti/01/index.html)；
