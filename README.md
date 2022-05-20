@@ -20,7 +20,7 @@ IP地址:
 [快连](https://purchase.eradpd.xyz/)；
 [小牛](https://www.aoxvpn.com/zhs/)；
 [小三加速器](https://github.com/sharmajv/vpn)【[下载](https://pan.baidu.com/s/1fy6N--VoCLN-GvU-FDQweg?pwd=v8e8)】；
-[火箭加速器](https://github.com/crosserR/shadowrocket-VPN)【[网站](https://shadowrocket.v2cross.com/)】
+[火箭加速器](https://github.com/crosserR/shadowrocket-VPN)【[网站](https://shadowrocket.v2cross.com/)-[下载](https://shadowrocket.v2cross.com/android/)】
 
 临时邮箱：
 [smailpro](https://smailpro.com/)；
