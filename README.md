@@ -31,7 +31,6 @@ IP地址:
 
 下载器：
 【[IDM](https://www.internetdownloadmanager.com/)】
-【[lrepacksIDM](https://lrepacks.net/)】
 【[XDM](https://xtremedownloadmanager.com/)】
 【[FDM](https://www.freedownloadmanager.org/zh/)】
 【[xdown](https://www.xdown.org/)】
@@ -64,3 +63,6 @@ Windows：
 
 清理：
 【[CCleaner](https://www.ccleaner.com/)】
+
+Lrepacks:
+【[lrepacks](https://lrepacks.net/)】
