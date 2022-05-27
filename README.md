@@ -58,3 +58,9 @@ Windows：
 
 安卓：
 【[apkpure](https://apkpure.com/cn/)】
+
+卸载：
+【[Geek](https://geekuninstaller.com/)】
+
+清理：
+【[CCleaner](https://www.ccleaner.com/)】
