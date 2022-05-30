@@ -24,7 +24,7 @@ IP地址:
 
 临时邮箱：
 【[smailpro](https://smailpro.com/)】
-【[gmail](https://www.gmailnator.com/)】
+【[smartnator](https://www.smartnator.com/)】
 【[linshi](https://linshiyouxiang.net/)】
 【[temp](https://temp-mail.org/zh/)】
 【[10minut](https://10minutemail.org/m/)】
