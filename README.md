@@ -37,7 +37,7 @@ IP地址:
 【[motrix](https://motrix.app/zh-CN)】
 
 Windows：
-【[Windows10](https://www.microsoft.com/en-au/software-download/windows10)】
+【[Windows10](https://www.microsoft.com/zh-cn/software-download/windows10)】
 【[Edge](https://www.microsoftedgeinsider.com/zh-cn/download)】
 
 上网工具：
