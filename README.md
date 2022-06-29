@@ -40,6 +40,9 @@ Windows：
 【[Windows10](https://www.microsoft.com/zh-cn/software-download/windows10)】
 【[Edge](https://www.microsoftedgeinsider.com/zh-cn/download)】
 
+浏览器：
+【[brave](https://brave.com/zh/)】
+
 上网工具：
 【[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)】
 【[工具网站](https://v2rayse.com/)】
