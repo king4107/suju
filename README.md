@@ -43,6 +43,9 @@ Windows：
 浏览器：
 【[brave](https://brave.com/zh/)】
 
+压缩器：
+【[winrar](https://www.rarlab.com/)】
+
 上网工具：
 【[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)】
 【[工具网站](https://v2rayse.com/)】
