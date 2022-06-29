@@ -45,6 +45,7 @@ Windows：
 
 压缩器：
 【[winrar](https://www.rarlab.com/)】
+【[7-zip](https://www.7-zip.org/)】
 
 上网工具：
 【[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)】
