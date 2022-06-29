@@ -44,7 +44,7 @@ Windows：
 【[brave](https://brave.com/zh/)】
 
 压缩器：
-【[winrar](https://www.rarlab.com/)】
+【[winrar](https://www.rarlab.com/)，[免费注册说明](https://raw.githubusercontent.com/king4107/jiedian/master/%E5%85%8D%E8%B4%B9%E6%B3%A8%E5%86%8CWinRaR)】
 【[7-zip](https://www.7-zip.org/)】
 
 上网工具：
