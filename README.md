@@ -47,6 +47,10 @@ Windows：
 【[winrar](https://www.rarlab.com/)，[一键下载](https://6434b1ac-394d-4a6d-a201-ccb216fe5b0a.filesusr.com/archives/8dd559_4880fa02699545608dc834dae5536b11.rar?dn=v6.11_x64.rar)，[免费注册说明](https://raw.githubusercontent.com/king4107/jiedian/master/%E5%85%8D%E8%B4%B9%E6%B3%A8%E5%86%8CWinRaR)】
 【[7-zip](https://www.7-zip.org/)】
 
+办公软件：
+【[Libreoffice](https://zh-cn.libreoffice.org/)】
+【[Onlyoffice](https://www.onlyoffice.com/zh/)】
+
 上网工具：
 【[工具下载](https://github.com/selierlin/Share-SSR-V2ray/blob/master/tools.md)】
 【[工具网站](https://v2rayse.com/)】
