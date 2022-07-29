@@ -77,3 +77,6 @@ Windows：
 
 Lrepacks:
 【[lrepacks](https://lrepacks.net/)】
+
+电影：
+【[TVBoX o0HalfLife0o大佬](https://github.com/o0HalfLife0o/TVBoxOSC)[o0HalfLife0o大佬 TG频道](https://t.me/TVBoxOSC)】
