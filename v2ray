@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-08-28 14:06:17
+#  创建时间：2022-08-28 14:16:34
 #  模版：v2rayse默认模版
-#  节点数量：1
+#  节点数量：3
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,6 +13,8 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"ss","name":"🇯🇵Tokyo","server":"yum-y.update.mipglxi.cn","port":6017,"cipher":"aes-128-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
+  - {"type":"vmess","name":"SGAWS","ws-opts":{"path":"/xNAH6GBOCyY","headers":{"host":"awssg3.sharecentre.xyz"}},"server":"cf.scsevers.cf","port":"443","uuid":"71060e33-5dcf-4281-98cc-5cc8b483fde7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇸🇬<SCP>新加坡AWS04","ws-opts":{"path":"/c5f2c2f29cfac0/","headers":{"host":"awssg4.naixii.top"}},"server":"awssg4.naixii.top","port":"443","uuid":"153bceef-4839-4f2d-86ce-93f74bca5cae","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -20,6 +22,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: ♻️ 自动选择
     type: url-test
@@ -27,6 +31,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: 🌍 国外媒体
     type: select
@@ -34,24 +40,32 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
   - name: 🎯 全球直连
     type: select
@@ -75,6 +89,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵Tokyo
+      - SGAWS
       - 🇸🇬<SCP>新加坡AWS04
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
