@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-06-08 12:12:07
+# 创建时间：2023-06-08 12:27:38
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,46 +22,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName","type":"wireguard","server":"162.159.192.64","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_1","type":"wireguard","server":"162.159.192.64","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_2","type":"wireguard","server":"162.159.195.145","port":939,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_3","type":"wireguard","server":"162.159.192.64","port":939,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_4","type":"wireguard","server":"162.159.195.25","port":939,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_5","type":"wireguard","server":"162.159.195.25","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_6","type":"wireguard","server":"162.159.195.176","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_7","type":"wireguard","server":"162.159.195.176","port":939,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_8","type":"wireguard","server":"162.159.192.189","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_9","type":"wireguard","server":"162.159.195.243","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_10","type":"wireguard","server":"162.159.192.77","port":934,"udp":true,"ipv6":"172.16.0.2","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +147,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
 
 rules:
 # 本地/局域网地址
