@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-07-31 09:15:07
+# 创建时间：2023-08-20 21:21:49
 # 使用模版：V2RaySE 默认模版
-# 节点数量：5
+# 节点数量：16
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,74 +22,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"v2ray.zxcvbnm4107.workers.dev_1","type":"vless","server":"162.159.130.204","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"v2ray.zxcvbnm4107.workers.dev_2","type":"vless","server":"162.159.240.101","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"defaultName_1","type":"wireguard","server":"188.114.97.114","port":1701,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
-  - {"name":"defaultName_2","type":"wireguard","server":"162.159.192.160","port":1701,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
-  - {"name":"defaultName_3","type":"wireguard","server":"162.159.192.169","port":988,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"剩余流量：128.83GB","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"7-12_明日将新采购一些香港节点","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重要-6月初如节点大规模屏蔽请及时反馈-敏感时期","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"162@-1413G__okgg.top","type":"vless","server":"s162.okggnode.top","port":36543,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s162.okggnode.top","network":"http"}
+  - {"name":"364@352G__okgg.top","type":"vless","server":"s364.okggnode.top","port":33083,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s364.okggnode.top","network":"grpc"}
+  - {"name":"142@350G__okgg.top","type":"vless","server":"s142.okggnode.top","port":41240,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s142.okggnode.top","network":"grpc"}
+  - {"name":"212@963G__okgg.top","type":"vless","server":"s212.okggnode.top","port":39319,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s212.okggnode.top","network":"grpc"}
+  - {"name":"440@913G__okgg.top","type":"vless","server":"s440.okggnode.top","port":26780,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s440.okggnode.top","network":"grpc"}
+  - {"name":"302@880G__okgg.top","type":"vless","server":"s302.okggnode.top","port":33563,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s302.okggnode.top","network":"grpc"}
+  - {"name":"436@694G__okgg.top","type":"vless","server":"s436.okggnode.top","port":42086,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s436.okggnode.top","network":"grpc"}
+  - {"name":"437@694G__okgg.top","type":"vless","server":"s436.okggnode.top","port":31425,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s436.okggnode.top","network":"grpc"}
+  - {"name":"443@674G__okgg.top","type":"vless","server":"s443.okggnode.top","port":26655,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s443.okggnode.top","network":"grpc"}
+  - {"name":"449@667G__okgg.top","type":"vless","server":"s449.okggnode.top","port":27569,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s449.okggnode.top","network":"grpc"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,11 +189,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
+      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-23+21:01:09
+      - 剩余流量：128.83GB
+      - 7-12_明日将新采购一些香港节点
+      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
+      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
+      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
+      - 162@-1413G__okgg.top
+      - 364@352G__okgg.top
+      - 142@350G__okgg.top
+      - 212@963G__okgg.top
+      - 440@913G__okgg.top
+      - 302@880G__okgg.top
+      - 436@694G__okgg.top
+      - 437@694G__okgg.top
+      - 443@674G__okgg.top
+      - 449@667G__okgg.top
 
 rules:
 # 本地/局域网地址
