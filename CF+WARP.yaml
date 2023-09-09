@@ -96,57 +96,57 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,10 +169,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - v2ray.zxcvbnm4107.workers.dev_1
-      - v2ray.zxcvbnm4107.workers.dev_2
+      - WARP-1
+      - WARP-2
+      - CF-1
+      - CF-2
 
 rules:
 # 本地/局域网地址
