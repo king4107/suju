@@ -88,8 +88,8 @@ dns:
 proxies:
   - {"name":"WARP-1","type":"wireguard","server":"162.159.192.252","port":1018,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
   - {"name":"WARP-2","type":"wireguard","server":"162.159.192.40","port":1018,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
-  - {"name":"CF-1","type":"vless","server":"162.159.129.194","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"CF-2","type":"vless","server":"190.93.247.159","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"CF-1","type":"vless","server":"104.17.159.7","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"CF-2","type":"vless","server":"104.17.216.251","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
