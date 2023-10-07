@@ -1,186 +1,249 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-08-24 12:06:46
+# 客户端：Clash
+# 创建时间：2023-10-07 09:32:59
 # 使用模版：V2RaySE 默认模版
 # 节点数量：18
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enabled: true
-  nameserver:
-    - 119.29.29.29
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 
 proxies:
-  - {"name":"邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"剩余流量：150.53GB","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"7-12_明日将新采购一些香港节点","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"重要-6月初如节点大规模屏蔽请及时反馈-敏感时期","type":"ss","server":"wordpress.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"162@-2116G__okgg.top","type":"vless","server":"s162.okggnode.top","port":36543,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s162.okggnode.top","network":"http"}
-  - {"name":"364@184G__okgg.top","type":"vless","server":"s364.okggnode.top","port":33083,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s364.okggnode.top","network":"grpc"}
-  - {"name":"212@797G__okgg.top","type":"vless","server":"s212.okggnode.top","port":39319,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s212.okggnode.top","network":"grpc"}
-  - {"name":"302@748G__okgg.top","type":"vless","server":"s302.okggnode.top","port":33563,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s302.okggnode.top","network":"grpc"}
-  - {"name":"440@708G__okgg.top","type":"vless","server":"s440.okggnode.top","port":26780,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s440.okggnode.top","network":"grpc"}
-  - {"name":"257@96G__okgg.top","type":"vless","server":"s257.okggnode.top","port":23482,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s257.okggnode.top","network":"grpc"}
-  - {"name":"142@84G__okgg.top","type":"vless","server":"s142.okggnode.top","port":41240,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s142.okggnode.top","network":"grpc"}
-  - {"name":"419@492G__okgg.top","type":"vless","server":"s419.okggnode.top","port":23802,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s419.okggnode.top","network":"grpc"}
-  - {"name":"436@460G__okgg.top","type":"vless","server":"s436.okggnode.top","port":42086,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s436.okggnode.top","network":"grpc"}
-  - {"name":"437@460G__okgg.top","type":"vless","server":"s436.okggnode.top","port":31425,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s436.okggnode.top","network":"grpc"}
-  - {"name":"443@459G__okgg.top","type":"vless","server":"s443.okggnode.top","port":26655,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s443.okggnode.top","network":"grpc"}
-  - {"name":"449@461G__okgg.top","type":"vless","server":"s449.okggnode.top","port":27569,"uuid":"6c36455b-a04b-3de8-bcab-5537a2e98542","tls":true,"servername":"s449.okggnode.top","network":"grpc"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"vmess","server":"112.29.156.248","port":61001,"cipher":"auto","uuid":"d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dabai.in","headers":{"host":"a.cn-db.top"}}}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","type":"trojan","server":"14.18.106.137","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","sni":"nl01.lovehjq.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"162.159.143.72","port":80,"cipher":"auto","uuid":"fab552f9-3c92-44ed-c086-08d631ee44ee","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"xui2.xuwu996.eu.org"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"62515af2-1dd9-467b-9dd3-774abefb6a62","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hu1.xv2ray.net"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vceu3.vpn66.eu.org"}}}
+  - {"name":"🇺🇸_US_美国_4","type":"ss","server":"usshs2.gophers.gay","port":20800,"password":"f5d95005-be14-40fc-bedc-e4a1133a5701","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_5","type":"ss","server":"155.248.198.71","port":20800,"password":"f5d95005-be14-40fc-bedc-e4a1133a5701","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"67.21.90.5","port":443,"cipher":"auto","uuid":"28dd6c26-05a5-4bba-8a5d-052b70ac13b2","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1694429908748"}}
+  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"singapore.com","port":80,"cipher":"auto","uuid":"bffa23aa-ae0a-4c02-af77-2a14c8c0b81c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v002.ssrsub.com"}}}
+  - {"name":"🇺🇸_US_美国_8","type":"vmess","server":"45.199.138.222","port":30000,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251693048","headers":{"host":"www.19229362.xyz"}}}
+  - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"lax.asoul-diana.xyz","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/acetaffy","headers":{"host":"lax.asoul-diana.xyz"}}}
+  - {"name":"🇺🇸_US_美国_10","type":"ss","server":"216.52.183.243","port":1001,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_US_美国->🇦🇺_AU_澳大利亚","type":"vmess","server":"fd.shabijichang.com","port":80,"cipher":"auto","uuid":"5e48a497-f4ae-4129-afd6-ba26d75b792a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mrb.shabijichang.com"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_1","type":"vmess","server":"dx1.992688.xyz","port":8880,"cipher":"auto","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vceu3.vpn66.eu.org"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_2","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vceu3.vpn66.eu.org"}}}
+  - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"vmess","server":"cf.yx.alue.link","port":2052,"cipher":"auto","uuid":"fe5edf04-c2af-4ac5-84ee-16d43024decb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us.wx.alue.link"}}}
+  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_1","type":"vmess","server":"104.17.88.252","port":2082,"cipher":"auto","uuid":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/phosphorylative.aurorainiceland.com/nimvws","headers":{"host":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"}}}
+  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_2","type":"vmess","server":"45.199.138.191","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251522438","headers":{"host":"www.42077230.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,24 +266,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 邮箱：19491001@qq.com_等级：1_VIP有效期：2023-08-27+11:50:52
-      - 剩余流量：150.53GB
-      - 7-12_明日将新采购一些香港节点
-      - 6-15-节点名字中带有openai-chatgpt字样的节点支持访问openai
-      - 6-8_新增以色列-英国-德国-法国-美国-印尼-印度-马来西亚节点
-      - 重要-6月初如节点大规模屏蔽请及时反馈-敏感时期
-      - 162@-2116G__okgg.top
-      - 364@184G__okgg.top
-      - 212@797G__okgg.top
-      - 302@748G__okgg.top
-      - 440@708G__okgg.top
-      - 257@96G__okgg.top
-      - 142@84G__okgg.top
-      - 419@492G__okgg.top
-      - 436@460G__okgg.top
-      - 437@460G__okgg.top
-      - 443@459G__okgg.top
-      - 449@461G__okgg.top
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
 
 rules:
 # 本地/局域网地址
