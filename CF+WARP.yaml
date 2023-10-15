@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-09-07 09:07:07
+# 创建时间：2023-10-15 19:17:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：4
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,67 +86,109 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"WARP-1","type":"wireguard","server":"162.159.192.252","port":1018,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
-  - {"name":"WARP-2","type":"wireguard","server":"162.159.192.40","port":1018,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
-  - {"name":"CF-1","type":"vless","server":"104.17.159.7","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"CF-2","type":"vless","server":"104.17.216.251","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1","type":"vless","server":"104.19.60.107","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-2","type":"vless","server":"172.64.89.90","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-3","type":"vless","server":"172.64.102.66","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-4","type":"vless","server":"172.67.153.151","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-5","type":"vless","server":"172.67.164.206","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_1","type":"wireguard","server":"162.159.192.117","port":7281,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_2","type":"wireguard","server":"162.159.192.191","port":7281,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_3","type":"wireguard","server":"162.159.192.174","port":7281,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_4","type":"wireguard","server":"162.159.195.143","port":7152,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"defaultName_5","type":"wireguard","server":"162.159.195.119","port":7281,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:8759:e9b7:e2e7:3171:9a7f","private-key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,10 +211,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - WARP-1
-      - WARP-2
-      - CF-1
-      - CF-2
+      - v2ray-1
+      - v2ray-2
+      - v2ray-3
+      - v2ray-4
+      - v2ray-5
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
 
 rules:
 # 本地/局域网地址
