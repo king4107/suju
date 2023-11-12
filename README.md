@@ -1,4 +1,5 @@
 # jiedian
+v2ray测速文件地址搜索：vps looking glass
 测速：
 【[Speedtest](https://www.speedtest.cn/)】
 【[badukeji](http://badukeji.speedtestcustom.com/)】
