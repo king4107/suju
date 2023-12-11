@@ -86,11 +86,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"v2ray-1_1","type":"vless","server":"172.67.79.179","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"v2ray-1_2","type":"vless","server":"skk.moe","port":2086,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"v2ray-1_3","type":"vless","server":"www.glassdoor.com","port":2095,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"v2ray-1_4","type":"vless","server":"www.visa.co.jp","port":8880,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"v2ray-1_5","type":"vless","server":"172.67.201.108","port":80,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1_1","type":"vless","server":"172.67.6.161","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1_2","type":"vless","server":"172.64.172.44":2086,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1_3","type":"vless","server":"162.159.251.64","port":2095,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1_4","type":"vless","server":"198.41.223.247","port":8880,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"v2ray-1_5","type":"vless","server":"172.67.60.208","port":80,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
