@@ -80,19 +80,18 @@ dns:
 
 proxies:
   - {"name":"defaultName_1","type":"hysteria","server":"51.158.54.46","port":11926,"sni":"youku.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs","up":11,"down":55}
-  - {"name":"defaultName_2","type":"hysteria","server":"173.234.25.52","port":20164,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F","up":11,"down":55}
-  - {"name":"defaultName_3","type":"hysteria","server":"108.181.22.239","port":39967,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
-  - {"name":"defaultName_4","type":"hysteria","server":"167.160.91.115","port":41189,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"auth_str":"bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF","up":11,"down":55}
-  - {"name":"defaultName_5","type":"hysteria2","server":"www.dtku46.xyz","port":55307,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_6","type":"hysteria2","server":"108.181.22.155","port":27710,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_7","type":"hysteria2","server":"167.160.90.252","port":63530,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_8","type":"vless","server":"cloudflare.cfgo.cc","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws","headers":{"host":"xray1.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_9","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"ffb15cd2-0521-49de-b8aa-fb15d58c8075","tls":true,"servername":"v2ray3.freegradely.xyz","network":"ws","ws-opts":{"path":"/bqbows","headers":{"host":"v2ray3.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_10","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"dongtaiwang2.com:443?security=tls&sni=xray1.freeh1.xyz&fp=undefined&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
-  - {"name":"defaultName_11","type":"hysteria","server":"108.181.22.213","port":33450,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":1000,"down":1000}
-  - {"name":"defaultName_12","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"dongtaiwang3.com:443?security=tls&sni=xray1.freeh1.xyz&fp=undefined&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
+  - {"name":"defaultName_2","type":"hysteria","server":"167.160.91.115","port":41189,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"auth_str":"bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF","up":11,"down":55}
+  - {"name":"defaultName_3","type":"hysteria","server":"173.234.25.52","port":30072,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
+  - {"name":"defaultName_4","type":"hysteria","server":"108.181.22.239","port":39967,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
+  - {"name":"defaultName_5","type":"hysteria2","server":"64.110.25.11","port":33337,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"defaultName_6","type":"hysteria","server":"51.158.54.46","port":55396,"sni":"youku.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
+  - {"name":"defaultName_7","type":"vless","server":"dongtaiwang2.com","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws","headers":{"host":"xray1.freegradely.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"defaultName_8","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"ffb15cd2-0521-49de-b8aa-fb15d58c8075","tls":true,"servername":"v2ray3.freegradely.xyz","network":"ws","ws-opts":{"path":"/bqbows","headers":{"host":"v2ray3.freegradely.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"defaultName_9","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"dongtaiwang3.com:443?security=tls&sni=xray1.freeh1.xyz&fp=chrome&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
+  - {"name":"defaultName_10","type":"hysteria","server":"www2.dtku48.xyz","port":22334,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
+  - {"name":"defaultName_11","type":"hysteria","server":"www.dtku50.xyz","port":11229,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
+  - {"name":"defaultName_12","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"dongtaiwang2.com:443?security=tls&sni=xray1.freeh1.xyz&fp=chrome&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
   - {"name":"defaultName_13","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws","headers":{"host":"xray1.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_14","type":"hysteria","server":"www.dtku50.xyz","port":28877,"sni":"www.dtku50.xyz","skip-cert-verify":true,"alpn":["h3"],"auth_str":"y6Sf5xTFyNx5","up":50,"down":100}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -114,7 +113,6 @@ proxy-groups:
       - defaultName_11
       - defaultName_12
       - defaultName_13
-      - defaultName_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -134,7 +132,6 @@ proxy-groups:
       - defaultName_11
       - defaultName_12
       - defaultName_13
-      - defaultName_14
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -153,7 +150,6 @@ proxy-groups:
       - defaultName_11
       - defaultName_12
       - defaultName_13
-      - defaultName_14
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -172,7 +168,6 @@ proxy-groups:
       - defaultName_11
       - defaultName_12
       - defaultName_13
-      - defaultName_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,7 +200,6 @@ proxy-groups:
       - defaultName_11
       - defaultName_12
       - defaultName_13
-      - defaultName_14
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
