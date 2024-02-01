@@ -3,7 +3,7 @@ proxy-groups:
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: '300'
-  filter: ()
+  filter: (US|HK|TW|JP|SG|KR)
   use:
   - 机场1
   - 机场2
