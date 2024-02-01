@@ -1,9 +1,9 @@
 proxy-groups:
-- name: 🇺🇸US节点
+- name: 节点
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: '300'
-  filter: (US|LA|美国|美|洛)
+  filter: ()
   use:
   - 机场1
   - 机场2
