@@ -1,0 +1,29 @@
+proxy-groups:
+- name: 🇺🇸US节点
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+  filter: (US|LA|美国|美|洛)
+  use:
+  - 机场1
+  - 机场2
+
+proxy-providers:
+  机场1:
+    type: http
+    url: https://snangua.com/api/v1/client/subscribe?token=110a3fa1616d844efbbc0bcd952195fc
+    interval: 23200
+    path: ./provider/proxy-providers/jichang1.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  机场2:
+    type: http
+    url: https://sub.hx666.pro/api/v1/client/subscribe?token=269853e41c0ae5361f236955df99b183
+    interval: 23200
+    path: ./provider/proxy-providers/jichang2.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
