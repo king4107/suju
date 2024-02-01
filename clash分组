@@ -1,5 +1,5 @@
 proxy-groups:
-- name: 节点选择
+- name: 🇺🇸US节点
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: '300'
