@@ -36,8 +36,8 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 3600
-    tolerance: 200
+    interval: 300
+    tolerance: 50
     proxies:
       - ☁️ CFWarp-A
       - ☁️ CFWarp-B
