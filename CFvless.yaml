@@ -78,18 +78,12 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"vless-1","type":"vless","server":"fbi.gov","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-6","type":"vless","server":"misaka.io","port":2082,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-2","type":"vless","server":"episerver.com","port":2086,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-3","type":"vless","server":"www.glassdoor.com","port":2095,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-4","type":"vless","server":"www.visa.co.jp","port":8080,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-5","type":"vless","server":"fbi.gov","port":8880,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-6t","type":"vless","server":"fbi.gov","port":443,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-7t","type":"vless","server":"fbi.gov","port":2053,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-8t","type":"vless","server":"fbi.gov","port":2083,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-9t","type":"vless","server":"fbi.gov","port":2087,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-10t","type":"vless","server":"fbi.gov","port":2096,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-11t","type":"vless","server":"fbi.gov","port":8443,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-1","type":"vless","server":"162.159.243.187","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-2","type":"vless","server":"172.67.186.30","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-3","type":"vless","server":"162.159.134.193","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-4t","type":"vless","server":"172.64.204.85":2053,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-5t","type":"vless","server":"172.67.214.205":2053,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-6t","type":"vless","server":"172.67.81.222":2053,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":true,"servername":"a.qertuo.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.qertuo.cloudns.org"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -107,34 +101,22 @@ proxy-groups:
     tolerance: 50
     proxies:
       - vless-1
-      - vless-6
       - vless-2
       - vless-3
-      - vless-4
-      - vless-5
+      - vless-4t
+      - vless-5t
       - vless-6t
-      - vless-7t
-      - vless-8t
-      - vless-9t
-      - vless-10t
-      - vless-11t
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - vless-1
-      - vless-6
       - vless-2
       - vless-3
-      - vless-4
-      - vless-5
+      - vless-4t
+      - vless-5t
       - vless-6t
-      - vless-7t
-      - vless-8t
-      - vless-9t
-      - vless-10t
-      - vless-11t
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -142,17 +124,11 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
       - vless-1
-      - vless-6
       - vless-2
       - vless-3
-      - vless-4
-      - vless-5
+      - vless-4t
+      - vless-5t
       - vless-6t
-      - vless-7t
-      - vless-8t
-      - vless-9t
-      - vless-10t
-      - vless-11t
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -160,32 +136,20 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - vless-1
-      - vless-6
       - vless-2
       - vless-3
-      - vless-4
-      - vless-5
+      - vless-4t
+      - vless-5t
       - vless-6t
-      - vless-7t
-      - vless-8t
-      - vless-9t
-      - vless-10t
-      - vless-11t
   - name: 🚀 手动切换
     type: select
     proxies:
       - vless-1
-      - vless-6
       - vless-2
       - vless-3
-      - vless-4
-      - vless-5
+      - vless-4t
+      - vless-5t
       - vless-6t
-      - vless-7t
-      - vless-8t
-      - vless-9t
-      - vless-10t
-      - vless-11t
   - name: 🎯 全球直连
     type: select
     proxies:
