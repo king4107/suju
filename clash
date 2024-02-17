@@ -1,4 +1,12 @@
 ####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2024-02-17 16:11:39
+# 使用模版：负载均衡
+# 节点数量：7
+# 节点类型：vmess, vless
+####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -79,20 +87,13 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"defaultName_1","type":"hysteria","server":"51.158.54.46","port":11926,"sni":"youku.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs","up":11,"down":55}
-  - {"name":"defaultName_2","type":"hysteria","server":"173.234.25.52","port":20164,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F","up":11,"down":55}
-  - {"name":"defaultName_3","type":"hysteria","server":"108.181.22.239","port":39967,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":11,"down":55}
-  - {"name":"defaultName_4","type":"hysteria","server":"167.160.91.115","port":41189,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"auth_str":"bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF","up":11,"down":55}
-  - {"name":"defaultName_5","type":"hysteria2","server":"www.dtku46.xyz","port":55307,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_6","type":"hysteria2","server":"108.181.22.155","port":27710,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_7","type":"hysteria2","server":"167.160.90.252","port":63530,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"defaultName_8","type":"vless","server":"cloudflare.cfgo.cc","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws","headers":{"host":"xray1.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_9","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"ffb15cd2-0521-49de-b8aa-fb15d58c8075","tls":true,"servername":"v2ray3.freegradely.xyz","network":"ws","ws-opts":{"path":"/bqbows","headers":{"host":"v2ray3.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_10","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"dongtaiwang2.com:443?security=tls&sni=xray1.freeh1.xyz&fp=undefined&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
-  - {"name":"defaultName_11","type":"hysteria","server":"108.181.22.213","port":33450,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":1000,"down":1000}
-  - {"name":"defaultName_12","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"dongtaiwang3.com:443?security=tls&sni=xray1.freeh1.xyz&fp=undefined&type=ws&path=/gzogws&host=xray1.freeh1.xyz","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xray1.freeh1.xyz","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
-  - {"name":"defaultName_13","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws","headers":{"host":"xray1.freegradely.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"defaultName_14","type":"hysteria","server":"www.dtku50.xyz","port":28877,"sni":"www.dtku50.xyz","skip-cert-verify":true,"alpn":["h3"],"auth_str":"y6Sf5xTFyNx5","up":50,"down":100}
+  - {"name":"Dmit US 2 awa","type":"vmess","server":"136.175.177.122","port":40046,"cipher":"auto","uuid":"8554070a-4554-4a9a-ae1b-2ee25ac5198b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Dmit US awa","type":"vmess","server":"136.175.177.45","port":35694,"cipher":"auto","uuid":"603684a2-d080-40d7-d09c-afc3ac036eb4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fsdafa"}}
+  - {"name":"TG@JUZIBAIPIAOHK","type":"vless","server":"8.218.2.181","port":2053,"uuid":"db701871-ca88-4d0f-b15d-14f8d82fb8b0","tls":true,"servername":"special-funicular.pages.dev","network":"ws","ws-opts":{"path":"TG @juzibaipiao 偷节点死吗","headers":{"host":"special-funicular.pages.dev"}},"client-fingerprint":"random"}
+  - {"name":"10M  新加坡","type":"vmess","server":"192.124.176.154","port":31548,"cipher":"auto","uuid":"1e1a3389-8ef6-411d-dc3c-17bee9fd19e7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日本VMISS","type":"vless","server":"38.47.125.129","port":8443,"uuid":"db701871-ca88-4d0f-b15d-14f8d82fb8b0","tls":true,"servername":"special-funicular.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"special-funicular.pages.dev"}},"client-fingerprint":"random"}
+  - {"name":"台湾03","type":"vless","server":"118.163.128.81","port":12559,"uuid":"db701871-ca88-4d0f-b15d-14f8d82fb8b0","tls":true,"servername":"special-funicular.pages.dev","network":"ws","ws-opts":{"path":"【TG：@juzibaipiao】定时更新节点","headers":{"host":"special-funicular.pages.dev"}}}
+  - {"name":"awa","type":"vmess","server":"154.17.25.123","port":49735,"cipher":"auto","uuid":"a1f7a885-1387-45b7-d011-422084e1affa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dhdh"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -101,78 +102,50 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
+      - Dmit US 2 awa
+      - Dmit US awa
+      - TG@JUZIBAIPIAOHK
+      - 10M  新加坡
+      - 日本VMISS
+      - 台湾03
+      - awa
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
+      - Dmit US 2 awa
+      - Dmit US awa
+      - TG@JUZIBAIPIAOHK
+      - 10M  新加坡
+      - 日本VMISS
+      - 台湾03
+      - awa
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
+      - Dmit US 2 awa
+      - Dmit US awa
+      - TG@JUZIBAIPIAOHK
+      - 10M  新加坡
+      - 日本VMISS
+      - 台湾03
+      - awa
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
+      - Dmit US 2 awa
+      - Dmit US awa
+      - TG@JUZIBAIPIAOHK
+      - 10M  新加坡
+      - 日本VMISS
+      - 台湾03
+      - awa
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,20 +165,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
+      - Dmit US 2 awa
+      - Dmit US awa
+      - TG@JUZIBAIPIAOHK
+      - 10M  新加坡
+      - 日本VMISS
+      - 台湾03
+      - awa
+
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -1977,6 +1944,11 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+# 长风网站，自动注入
+  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
 #PROCESS-NAME,Telegram.exe
 #PROCESS-NAME,org.telegram.messenger
 # 内容：国外媒体列表
