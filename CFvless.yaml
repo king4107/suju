@@ -1,4 +1,11 @@
 ####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2024-02-25 13:22:30
+# 使用模版：负载均衡
+# 节点数量：5
+# 节点类型：vless
+####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
@@ -80,11 +87,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vless-1_1","type":"vless","server":"162.159.243.187","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-1_2","type":"vless","server":"172.67.186.30","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-1_3","type":"vless","server":"162.159.134.193","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-1_4","type":"vless","server":"172.64.204.85","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-1_5","type":"vless","server":"172.67.214.205","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-2","type":"vless","server":"172.64.139.56","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-1","type":"vless","server":"172.64.95.119","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-3","type":"vless","server":"172.67.196.110","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-4","type":"vless","server":"172.67.176.1","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"vless-5","type":"vless","server":"172.67.107.98","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -93,42 +100,42 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - vless-1_1
-      - vless-1_2
-      - vless-1_3
-      - vless-1_4
-      - vless-1_5
+      - vless-2
+      - vless-1
+      - vless-3
+      - vless-4
+      - vless-5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vless-1_1
-      - vless-1_2
-      - vless-1_3
-      - vless-1_4
-      - vless-1_5
+      - vless-2
+      - vless-1
+      - vless-3
+      - vless-4
+      - vless-5
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vless-1_1
-      - vless-1_2
-      - vless-1_3
-      - vless-1_4
-      - vless-1_5
+      - vless-2
+      - vless-1
+      - vless-3
+      - vless-4
+      - vless-5
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vless-1_1
-      - vless-1_2
-      - vless-1_3
-      - vless-1_4
-      - vless-1_5
+      - vless-2
+      - vless-1
+      - vless-3
+      - vless-4
+      - vless-5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,11 +155,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - vless-1_1
-      - vless-1_2
-      - vless-1_3
-      - vless-1_4
-      - vless-1_5
+      - vless-2
+      - vless-1
+      - vless-3
+      - vless-4
+      - vless-5
 
 rules:
 # 本地/局域网地址
