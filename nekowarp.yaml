@@ -17,11 +17,11 @@ dns:
   fallback: [tls://101.101.101.101:853,https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
   fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: [+.google.com, +.facebook.com, +.twitter.com, +.youtube.com, +.xn--ngstr-lra8j.com, +.google.cn, +.googleapis.cn, +.googleapis.com, +.gvt1.com, +.paoluz.com, +.paoluz.link, +.paoluz.xyz, +.sodacity-funk.xyz, +.nloli.xyz,+.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: "☁️ CFWarp-1",type: wireguard,server: 162.159.195.232,port: 5279,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-2",type: wireguard,server: 162.159.195.59,port: 1180,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-3",type: wireguard,server: 162.159.195.105,port: 1180,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-4",type: wireguard,server: 162.159.195.163,port: 5279,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-5",type: wireguard,server: 162.159.195.34,port: 1180,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-1",type: wireguard,server: 188.114.96.96,port: 891,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-2",type: wireguard,server: 188.114.97.0,port: 891,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-3",type: wireguard,server: 188.114.96.104,port: 891,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-4",type: wireguard,server: 188.114.98.227,port: 1002,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: "☁️ CFWarp-5",type: wireguard,server: 188.114.98.102,port: 891,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
