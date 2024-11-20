@@ -1,90 +1,13 @@
-####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
+mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
-dns:
-  enabled: true
-  listen: 0.0.0.0:1053
-  ipv6: true
-  default-nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.lan'
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    - swscan.apple.com
-    - mesu.apple.com
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
-    - '*.time.edu.cn'
-    - '*.ntp.org.cn'
-    - +.pool.ntp.org
-    - time1.cloud.tencent.com
-    - +.music.163.com
-    - '*.126.net'
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - '*.kuwo.cn'
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - +.y.qq.com
-    - +.music.tc.qq.com
-    - aqqmusic.tc.qq.com
-    - +.stream.qqmusic.qq.com
-    - '*.xiami.com'
-    - +.music.migu.cn
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - +.xboxlive.com
-    - localhost.ptlogin2.qq.com
-    - proxy.golang.org
-    - stun.*.*
-    - stun.*.*.*
-    - '*.mcdn.bilivideo.cn'
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback-filter:
-    geoip: false
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-
+external-controller: :9090
 proxies:
-  - {"name":"vless-2","type":"vless","server":"172.64.139.56","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-1","type":"vless","server":"172.64.95.119","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-3","type":"vless","server":"172.67.196.110","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-4","type":"vless","server":"172.67.176.1","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"vless-5","type":"vless","server":"172.67.107.98","port":2052,"uuid":"c46a5f36-98d5-4f06-8d8f-d3e93830eafe","tls":false,"servername":"v2ray.zxcvbnm4107.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2ray.zxcvbnm4107.workers.dev"}},"client-fingerprint":"randomized"}
+  - {name: "[Vless] 香港", server: 104.20.16.240, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
+  - {name: "[Vless] 欧洲", server: 162.159.160.188, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
+  - {name: "[Vless] 美国", server: 104.16.182.58, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -93,42 +16,35 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - vless-2
-      - vless-1
-      - vless-3
-      - vless-4
-      - vless-5
+      - "[Vless] 香港"
+      - "[Vless] 欧洲"
+      - "[Vless] 美国"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vless-2
-      - vless-1
-      - vless-3
-      - vless-4
-      - vless-5
+      - "[Vless] 香港"
+      - "[Vless] 欧洲"
+      - "[Vless] 美国"
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vless-2
-      - vless-1
-      - vless-3
-      - vless-4
-      - vless-5
+      - "[Vless] 香港"
+      - "[Vless] 欧洲"
+      - "[Vless] 美国"
   - name: 🔮 负载均衡
     type: load-balance
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vless-2
-      - vless-1
-      - vless-3
-      - vless-4
-      - vless-5
+      - "[Vless] 香港"
+      - "[Vless] 欧洲"
+      - "[Vless] 美国"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,19 +64,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - vless-2
-      - vless-1
-      - vless-3
-      - vless-4
-      - vless-5
-
+      - "[Vless] 香港"
+      - "[Vless] 欧洲"
+      - "[Vless] 美国"
 rules:
-# 本地/局域网地址
-# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-# ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-# 本地/局域网地址
-# Router managed 路由器管理域名
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -196,12 +103,24 @@ rules:
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
   - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
-# 广告关键词
-# 广告联盟-国内****************
-# 广告联盟-国外****************
-# 垃圾站点****************
-# 运营商广告****************
-# 包含常用应用的各种去广告规则。
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+  - DOMAIN,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+  - DOMAIN,livew.l.qq.com,🎯 全球直连
+  - DOMAIN,vd.l.qq.com,🎯 全球直连
+  - DOMAIN,errlog.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+  - DOMAIN,tracking.miui.com,🎯 全球直连
+  - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN,rewards.hypixel.net,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -519,7 +438,6 @@ rules:
   - DOMAIN-SUFFIX,rtbasia.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sanya1.com,🛑 全球拦截
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
@@ -587,6 +505,7 @@ rules:
   - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
@@ -620,7 +539,6 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -794,66 +712,6 @@ rules:
   - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
-# 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
-# 163
-# 17173
-# 178
-# 2345
-# 360
-# 58
-# Alibaba
-# Adobe
-# Apple
-# AutoHome
-# Baidu
-# Book-app 起点 掌阅 书旗 宜搜
-# ByteDance 头条抖音
-# Dangdang
-# Duomi
-# Facebook
-# Fang
-# Google
-# JD
-# Kugou
-# Kuwo
-# Meizu flyme 魅族
-# Meitu
-# Miui 小米
-# Moji
-# Qingting.fm
-# QQ
-# RenRen
-# Sina
-# Sougou
-# Teleplus
-# Twitter
-# UC ali
-# Weifeng
-# WPS Office
-# Wi-Fi key
-# Ximalaya 喜马拉雅
-# Xunlei 迅雷app&看看
-# Yahoo
-# Zhihu
-# Ads in Video apps 下面都是 ********************
-# 6间房
-# Baofeng 暴风影音
-# Douyu
-# Fenghuang 凤凰TV
-# Funshion 风行
-# iqiyi PPS 爱奇艺
-# Ku6 酷6
-# LeTV 乐视
-# MGTV 芒果TV
-# Sohu 搜狐
-# PPTV、PPLive
-# QQ Live
-# Youku & Tudou
-# Youtube
-# Others ads in Video apps
-# Ads in Video apps end 上面都是 ********************
-# 常用网站广告
-# Google China
   - DOMAIN-SUFFIX,a.youdao.com,🛑 全球拦截
   - DOMAIN-SUFFIX,adgeo.corp.163.com,🛑 全球拦截
   - DOMAIN-SUFFIX,analytics.126.net,🛑 全球拦截
@@ -1877,7 +1735,6 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,up.qingdaonews.com,🛑 全球拦截
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🛑 全球拦截
-# 内容：SteamCN
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -1907,8 +1764,6 @@ rules:
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
-# 数量：16条
-# Telegram
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
   - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -1925,14 +1780,6 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-# 长风网站，自动注入
-  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
-  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
-  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
-#PROCESS-NAME,Telegram.exe
-#PROCESS-NAME,org.telegram.messenger
-# 内容：国外媒体列表
   - DOMAIN-SUFFIX,t.me,🚀 节点选择
   - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
@@ -1940,72 +1787,19 @@ rules:
   - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
   - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
+  - IP-CIDR,95.161.64.0/20,🚀 节点选择,no-resolve
   - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
   - IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
-# 更新：2023-12-14 21:59:10
-# 数量：369条
-# ABC
-# AbemaTV
-# All4
-# Amazon
-# AppleNews
-# AppleTV
-# BBCiPlayer
-# Bahamut
-# DAZN
-# Deezer
-# DiscoveryPlus
-# DisneyPlus
-# EncoreTVB
-# FoxNow
-# HBO
-# HBO_GO_HKG
-# HWTV
-# Hulu
-# HuluJapan
-# ITV
-# JOOX
-# Japonx
-# KKBOX
-# KKTV
-# LiTV
-# LineTV
-# My5
-# MyTVSuper
-# Netflix
-# Niconico
-# NivodTV
-# Olevod
-# OpenAi
-# PBS
-# Pandora
-# Pornhub
-# Qobuz
-# SoundCloud
-# Spotify
-# TIDAL
-# TaiWanGood 台湾好
-# TikTok
-# Twitch
-# ViuTV
-# YouTube
-# YouTubeMusic
-#   - USER-AGENT,AbemaTV*,🚀 节点选择
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
-#   - USER-AGENT,All4*,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
-#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -2030,14 +1824,10 @@ rules:
   - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
   - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,seattlespheres.com,🚀 节点选择
-#   - USER-AGENT,AppleNews*,🚀 节点选择
-#   - USER-AGENT,com.apple.news*,🚀 节点选择
-#   - USER-AGENT,BBCiPlayer*,🚀 节点选择
   - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
   - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
   - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
   - DOMAIN-SUFFIX,tv.apple.com,🚀 节点选择
-#   - USER-AGENT,Anime*,🚀 节点选择
   - DOMAIN-KEYWORD,bbcfmt,🚀 节点选择
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 节点选择
@@ -2052,13 +1842,11 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
   - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
-#   - USER-AGENT,DAZN*,🚀 节点选择
   - DOMAIN,bahamut.akamaized.net,🚀 节点选择
   - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
-#   - USER-AGENT,Deezer*,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -2070,14 +1858,11 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
   - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
   - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
-#   - USER-AGENT,Disney*,🚀 节点选择
   - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
   - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,disco-api.com,🚀 节点选择
   - DOMAIN-SUFFIX,discovery.com,🚀 节点选择
   - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
-#   - USER-AGENT,Disney+*,🚀 节点选择
-#   - USER-AGENT,encoreTVB*,🚀 节点选择
   - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
   - DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
   - DOMAIN-SUFFIX,bam.nr-data.net,🚀 节点选择
@@ -2098,25 +1883,19 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🚀 节点选择
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 节点选择
-#   - USER-AGENT,FOX%20NOW*,🚀 节点选择
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 节点选择
   - DOMAIN,content.jwplatform.com,🚀 节点选择
   - DOMAIN,edge.api.brightcove.com,🚀 节点选择
   - DOMAIN,videos-f.jwpsrv.com,🚀 节点选择
   - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
-#   - USER-AGENT,HBO%20NOW*,🚀 节点选择
   - DOMAIN-SUFFIX,fox.com,🚀 节点选择
   - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
   - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
-#   - USER-AGENT,HBOMAX*,🚀 节点选择
-#   - USER-AGENT,HBO%20GO%20PROD*,🚀 节点选择
   - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
-#   - USER-AGENT,HWTVMobile*,🚀 节点选择
-  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2136,7 +1915,6 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
-#   - USER-AGENT,ITV_Player*,🚀 节点选择
   - DOMAIN-SUFFIX,5itv.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 节点选择
@@ -2152,12 +1930,10 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 节点选择
   - DOMAIN-SUFFIX,streaks.jp,🚀 节点选择
   - DOMAIN-SUFFIX,yb.uncn.jp,🚀 节点选择
-#   - USER-AGENT,JOOX*,🚀 节点选择
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,itv.com,🚀 节点选择
   - DOMAIN-SUFFIX,itvstatic.com,🚀 节点选择
-#   - USER-AGENT,WeMusic*,🚀 节点选择
-#   - USER-AGENT,KKTV*,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-KEYWORD,jooxweb-api,🚀 节点选择
   - DOMAIN-SUFFIX,joox.com,🚀 节点选择
   - DOMAIN-KEYWORD,japonx,🚀 节点选择
@@ -2173,32 +1949,25 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🚀 节点选择
   - DOMAIN-SUFFIX,kkbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,kkbox.com.tw,🚀 节点选择
-#   - USER-AGENT,com.kktv.ios.kktv*,🚀 节点选择
-#   - USER-AGENT,LINE%20TV*,🚀 节点选择
   - DOMAIN,kktv-theater.kk.stream,🚀 节点选择
   - DOMAIN,theater-kktv.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,kktv.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,kktv.me,🚀 节点选择
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,litv.tv,🚀 节点选择
-#   - USER-AGENT,LINE*,🚀 节点选择
-#   - USER-AGENT,My5*,🚀 节点选择
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,linetv.tw,🚀 节点选择
   - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 节点选择
-#   - USER-AGENT,mytv*,🚀 节点选择
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,channel5.com,🚀 节点选择
   - DOMAIN-SUFFIX,my5.tv,🚀 节点选择
-#   - USER-AGENT,Argo*,🚀 节点选择
   - DOMAIN-KEYWORD,nowtv100,🚀 节点选择
   - DOMAIN-KEYWORD,rthklive,🚀 节点选择
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 节点选择
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
   - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
   - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
-#   - USER-AGENT,Niconico*,🚀 节点选择
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 节点选择
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
   - DOMAIN-KEYWORD,netflixdnstest,🚀 节点选择
@@ -2239,7 +2008,6 @@ rules:
   - IP-CIDR,203.75.84.0/24,🚀 节点选择,no-resolve
   - IP-CIDR,207.45.72.0/22,🚀 节点选择,no-resolve
   - IP-CIDR,208.75.76.0/22,🚀 节点选择,no-resolve
-#   - USER-AGENT,PBS*,🚀 节点选择
   - DOMAIN-SUFFIX,dmc.nico,🚀 节点选择
   - DOMAIN-SUFFIX,nicovideo.jp,🚀 节点选择
   - DOMAIN-SUFFIX,nimg.jp,🚀 节点选择
@@ -2266,6 +2034,7 @@ rules:
   - DOMAIN-KEYWORD,openai,🚀 节点选择
   - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
@@ -2278,20 +2047,16 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
   - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
   - DOMAIN-SUFFIX,stripe.com,🚀 节点选择
-#   - USER-AGENT,Pandora*,🚀 节点选择
   - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
-#   - USER-AGENT,SoundCloud*,🚀 节点选择
   - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
   - DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,phprcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pornhub.com,🚀 节点选择
   - DOMAIN-SUFFIX,pornhubpremium.com,🚀 节点选择
   - DOMAIN-SUFFIX,qobuz.com,🚀 节点选择
-#   - USER-AGENT,Spotify*,🚀 节点选择
   - DOMAIN-SUFFIX,p-cdn.us,🚀 节点选择
   - DOMAIN-SUFFIX,sndcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,soundcloud.com,🚀 节点选择
-#   - USER-AGENT,TIDAL*,🚀 节点选择
   - DOMAIN-KEYWORD,-spotify-,🚀 节点选择
   - DOMAIN-KEYWORD,spotify.com,🚀 节点选择
   - DOMAIN-SUFFIX,pscdn.co,🚀 节点选择
@@ -2300,14 +2065,11 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🚀 节点选择
   - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
-#   - USER-AGENT,TaiwanGood*,🚀 节点选择
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidal.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidalhifi.com,🚀 节点选择
-#   - USER-AGENT,TikTok*,🚀 节点选择
   - DOMAIN,hamifans.emome.net,🚀 节点选择
   - DOMAIN-SUFFIX,skyking.com.tw,🚀 节点选择
-#   - USER-AGENT,Viu*,🚀 节点选择
   - DOMAIN-KEYWORD,tiktokcdn,🚀 节点选择
   - DOMAIN-SUFFIX,byteoversea.com,🚀 节点选择
   - DOMAIN-SUFFIX,ibytedtos.com,🚀 节点选择
@@ -2325,7 +2087,6 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🚀 节点选择
   - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
   - DOMAIN-SUFFIX,twitchcdn.net,🚀 节点选择
-#   - USER-AGENT,*youtube*,🚀 节点选择
   - PROCESS-NAME,com.viu.pad,🚀 节点选择
   - PROCESS-NAME,com.viu.phone,🚀 节点选择
   - PROCESS-NAME,com.vuclip.viu,🚀 节点选择
@@ -2341,9 +2102,6 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.now.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.tv,🚀 节点选择
-#   - USER-AGENT,YouTube*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtube*,🚀 节点选择
-#   - USER-AGENT,*YouTubeMusic*,🚀 节点选择
   - DOMAIN-KEYWORD,youtube,🚀 节点选择
   - DOMAIN,youtubei.googleapis.com,🚀 节点选择
   - DOMAIN,yt3.ggpht.com,🚀 节点选择
@@ -2358,46 +2116,7 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-#   - USER-AGENT,*com.google.ios.youtubemusic*,🚀 节点选择
-#   - USER-AGENT,YouTubeMusic*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtubemusic*,🚀 节点选择
-# 代理列表
   - DOMAIN,music.youtube.com,🚀 节点选择
-# MyList && Other
-# 国外域名
-# 国外域名关键字
-# Top Blocked Sites
-# Amazon
-# BBC
-# Claude
-# Developer 开发者常用国外网站、镜像和论坛
-# Discord
-# Facebook
-# Github
-# Google
-# GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-# Instagram
-# Kakao Talk
-# Line
-# OpenAi
-# OneDrive
-#DOMAIN-SUFFIX,aria.microsoft.com
-# Porn
-# Pixiv
-# Spark
-# Steam
-# TapTap
-# Twitch
-# Twitter
-# Telegram
-# TeraBox
-# Whatsapp
-# Wikipedia 维基相关域名
-# Zoom
-#飞流直播
-#华文电视
-# VikACG
-# 直连列表
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2580,6 +2299,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -2597,6 +2317,13 @@ rules:
   - DOMAIN-SUFFIX,spring.io,🚀 节点选择
   - DOMAIN-SUFFIX,spring.net,🚀 节点选择
   - DOMAIN-SUFFIX,stackoverflow.com,🚀 节点选择
+  - DOMAIN,d1q6f0aelx0por.cloudfront.net,🚀 节点选择
+  - DOMAIN,d2wy8f7a9ursnm.cloudfront.net,🚀 节点选择
+  - DOMAIN,d36jcksde1wxzq.cloudfront.net,🚀 节点选择
+  - DOMAIN-SUFFIX,compose-spec.io,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
+  - DOMAIN-SUFFIX,dockerhub.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.co,🚀 节点选择
   - DOMAIN-SUFFIX,discord.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.gg,🚀 节点选择
@@ -2670,6 +2397,7 @@ rules:
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.com,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
@@ -2767,6 +2495,7 @@ rules:
   - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.org,🚀 节点选择
+  - DOMAIN-SUFFIX,x.com,🚀 节点选择
   - DOMAIN-SUFFIX,t.me,🚀 节点选择
   - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
@@ -2816,53 +2545,6 @@ rules:
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
-# MyList
-# CN域名直连(中国|公司|网络)
-# 中国国内常见域名关键词直连
-# 360
-# 4399
-# 58
-# Alibaba
-# Baidu
-# Bilibili
-# ByteDance
-# CCTV
-# ChinaNet
-# DiDi
-# Douyu 斗鱼
-# Epic
-# HuaWei
-# Heytap
-# Iflytek 科大讯飞
-# Iqiyi
-# JD
-# Kingsoft
-# Kuaishou 快手
-# Meitu
-# LeTV 乐视
-# MGTV 芒果TV
-# MI
-# NetEase
-# PPTV、PPLive
-# PDD 拼多多
-# Sina
-# Sohu Sogo
-# Sony
-# SteamCN
-# Tencent
-# Vip 唯品会
-# Ximalaya 喜马拉雅
-# Xunlei 迅雷
-# YYeTs 人人影视
-# TeamViewer
-# Public Direct CDN 公共直连
-#DOMAIN-SUFFIX,ajax.aspnetcdn.com
-#DOMAIN-SUFFIX,ajax.cloudflare.com
-#DOMAIN-SUFFIX,cdnjs.cloudflare.com
-#DOMAIN-SUFFIX,code.jquery.com
-# China DNS
-# AccelerateDirectSites
-# 中国云服务商ip端
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -2970,6 +2652,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -3028,6 +2712,8 @@ rules:
   - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
   - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
   - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytefcdnrd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,edgesrv.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
@@ -3337,6 +3023,7 @@ rules:
   - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
   - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
   - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koyso.com,🎯 全球直连
   - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
   - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
@@ -3469,12 +3156,6 @@ rules:
   - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
-# 阿里
-# 腾讯 qq
-# 百度 Baidu
-# 华为 huwei
-# 网易 NetEase
-# 360
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
