@@ -1,0 +1,6 @@
+搜索反代IP网站地址：https://fofa.info
+搜索关键字：server=="cloudflare" && port=="80" && header="Forbidden" && country=="CN"
+
+首先打开这个网址进入CDN优选工具（感谢不良林大佬工具和网址）
+CDN优选工具：https://bulianglin.com/archives/cdn.html
+节点测速工具：https://github.com/bulianglin/demo
