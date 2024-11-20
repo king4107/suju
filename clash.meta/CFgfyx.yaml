@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: "[Vless] 香港", server: 104.20.16.240, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
   - {name: "[Vless] 欧洲", server: 162.159.160.188, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
-  - {name: "[Vless] 美国", server: 104.16.182.58, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
+  - {name: "[Vless] 美国", server: 104.17.53.29, port: 443, type: vless, uuid: b317154e-373d-469d-9b3c-d4f44b9574e7, tls: true, skip-cert-verify: false, servername: edgetunnel-92q.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-92q.pages.dev}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
