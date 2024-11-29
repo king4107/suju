@@ -1,0 +1,40 @@
+电脑端nekoray分流
+{
+    "interface_name": "WARP",
+    "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128"
+    ],
+    "mtu": 1408,
+    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+    "private_key":"UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=",
+    "server": "162.159.192.234",
+    "server_port": 908,
+    "system_interface": false,
+    "tag": "proxy",
+    "type": "wireguard"
+}
+
+warp转wireguard配置文件 
+[Interface]
+PrivateKey = OIbU9AZMNaiT6Bmyx7iZFBJblNZpmagEs9BpgiCb+mo=
+Address = 172.16.0.2/32
+Address = 2606:4700:110:8574:ab89:ca6e:126:8e62/128
+DNS = 1.1.1.1
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+AllowedIPs = ::/0
+Endpoint = 162.159.193.10:2408
+----------------------------------------------------------------------------------------------------
+[Interface]
+PrivateKey = UD4RPmH2YyZ0LHnvsT2sHwFv0XLcJy1eJzJ4hhIJhXg=
+Address = 172.16.0.2/32, 2606:4700:110:8759:e9b7:e2e7:3171:9a7f/128
+DNS = 1.1.1.1
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0, ::/0
+Endpoint = 162.159.192.197:7103
+
