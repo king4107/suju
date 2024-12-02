@@ -23,7 +23,7 @@ BPB订阅
 https://这里填域名/sub/89b3cbba-e6ac-485a-9481-976a0415eab9
 
 Trojan节点（露点重灾区，Trojan多得离谱）:
-trojan://bpb-trojan@visa.cn:443?security=tls&sni=这里填域名&type=ws&host=这里填域名&path=%2Ftr%3Fed%3D2560#BPB好人
+trojan://bpb-trojan@这里填域名:443?security=tls&sni=这里填域名&type=ws&host=这里填域名&path=%2Ftr%3Fed%3D2560#BPB好人
 
 noTLS VLESS节点
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@visa.cn:80?encryption=none&security=none&type=ws&host=这里填域名&path=%3Fed%3D2560#BPB好人
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@这里填域名:80?encryption=none&security=none&type=ws&host=这里填域名&path=%3Fed%3D2560#BPB好人
