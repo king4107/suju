@@ -17,7 +17,7 @@ trojan://bpb-trojan@这里填域名:443?security=tls&sni=这里填域名&alpn=h3
 
 CM喂饭 
 VLESS节点
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@visa.cn:443?encryption=none&security=tls&sni=这里填域名&type=ws&host=这里填域名&path=%3Fed%3D2560#BPB好人
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@这里填域名:443?encryption=none&security=tls&sni=这里填域名&type=ws&host=这里填域名&path=%3Fed%3D2560#BPB好人
 
 BPB订阅
 https://这里填域名/sub/89b3cbba-e6ac-485a-9481-976a0415eab9
