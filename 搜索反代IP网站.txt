@@ -8,7 +8,7 @@ CDN优选工具：https://bulianglin.com/archives/cdn.html
 
 批量获取免费的BPB-Worker-Panel 面板节点
 1、在V2ray 导入下方的代码：
-trojan://bpb-trojan@www.vpslook.com:443?security=tls&sni=这里填域名&alpn=h3&fp=randomized&allowlnsecure=1&type=ws&host=这里填域名&path=%2Ftr%3Fed%3D2560#BPB
+trojan://bpb-trojan@这里填域名:443?security=tls&sni=这里填域名&alpn=h3&fp=randomized&allowlnsecure=1&type=ws&host=这里填域名&path=%2Ftr%3Fed%3D2560#BPB
 
 2、批量免费获取BPB面板的后台地址：
 搜索关键字443端口：icon_hash="-1354027319" && asn="13335" && port="443"
