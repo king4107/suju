@@ -24,7 +24,7 @@ proxy-providers:
     proxy: 直连
 
   CM优选订阅:
-    url: "https://battlestar.jhls.dpdns.org/cn?sub=sub.cmliussss.net"
+    url: "https://battlestar.dpdns.org?sub=sub.cmliussss.net"
     type: http
     interval: 86400
     health-check:
