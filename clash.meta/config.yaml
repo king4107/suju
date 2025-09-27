@@ -23,7 +23,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-   白狗:
+  白狗:
     url: "https://baigou.kkhhddnn.cn/baidu666?token=3a7fac8b02cf2570afbbe6f7b89d82ec"
     type: http
     interval: 86400
@@ -33,7 +33,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-   斑马:
+  斑马:
     url: "http://107.173.31.17/s/e1d36efc85a2205683c4d7dc1b944647"
     type: http
     interval: 86400
@@ -196,4 +196,5 @@ rule-providers:
   google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+
 
