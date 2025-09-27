@@ -3,8 +3,8 @@
 # 跑裸核用户请自行去掉下方控制面板模块的注释。
 # 机场订阅
 proxy-providers:
-  西贡在线:
-    url: "https://img.saigonfly.com/static/33e1893e633129ac615fcd17436a6af7"
+  舒肤佳:
+    url: "https://sufujia.top/api/v1/client/subscribe?token=f8c21b7e2c8c1e2fd4c2c263760f9b50"
     type: http
     interval: 86400
     health-check:
@@ -13,8 +13,8 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-  极链:
-    url: "https://sub-qq.jilian.store/api/jilian/3b9592e801c0399aa08731b08f9a0ca8"
+  游乐场:
+    url: "https://ylccloud.top/api/v1/client/subscribe?token=79aab73306cc7a5d2ab401a626dc6c21"
     type: http
     interval: 86400
     health-check:
@@ -23,8 +23,18 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-  CM优选订阅:
-    url: "https://battlestar.dpdns.org?sub=sub.cmliussss.net"
+   白狗:
+    url: "https://baigou.kkhhddnn.cn/baidu666?token=3a7fac8b02cf2570afbbe6f7b89d82ec"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+
+   斑马:
+    url: "http://107.173.31.17/s/e1d36efc85a2205683c4d7dc1b944647"
     type: http
     interval: 86400
     health-check:
@@ -186,3 +196,4 @@ rule-providers:
   google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+
