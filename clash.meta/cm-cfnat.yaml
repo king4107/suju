@@ -20,7 +20,7 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - "[Vless] CFnat"
-      - "[Vless] v2ray优选"
+      - "[Vless] v2ray优选 1"
       - "[Vless] v2ray优选 2"
       - "[Vless] v2ray优选 3"
       - "[Vless] v2ray优选 4"
@@ -32,7 +32,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "[Vless] CFnat"
-      - "[Vless] v2ray优选"
+      - "[Vless] v2ray优选 1"
       - "[Vless] v2ray优选 2"
       - "[Vless] v2ray优选 3"
       - "[Vless] v2ray优选 4"
@@ -43,7 +43,7 @@ proxy-groups:
     interval: 180
     proxies:
       - "[Vless] CFnat"
-      - "[Vless] v2ray优选"
+      - "[Vless] v2ray优选 1"
       - "[Vless] v2ray优选 2"
       - "[Vless] v2ray优选 3"
       - "[Vless] v2ray优选 4"
@@ -55,7 +55,7 @@ proxy-groups:
     interval: 180
     proxies:
       - "[Vless] CFnat"
-      - "[Vless] v2ray优选"
+      - "[Vless] v2ray优选 1"
       - "[Vless] v2ray优选 2"
       - "[Vless] v2ray优选 3"
       - "[Vless] v2ray优选 4"
@@ -80,7 +80,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - "[Vless] CFnat"
-      - "[Vless] v2ray优选"
+      - "[Vless] v2ray优选 1"
       - "[Vless] v2ray优选 2"
       - "[Vless] v2ray优选 3"
       - "[Vless] v2ray优选 4"
