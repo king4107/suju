@@ -3,63 +3,63 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
-  - {name: "[Vless] CFnat", server: 127.0.0.1, port: 1234, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
-  - {name: "[Vless] v2ray优选 1", server: ns3.cloudflare.com, port: 443, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
-  - {name: "[Vless] v2ray优选 2", server: www.coleman.com, port: 443, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
-  - {name: "[Vless] v2ray优选 3", server: www.hyva.com, port: 443, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
-  - {name: "[Vless] v2ray优选 4", server: cf.090227.xyz, port: 443, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
-  - {name: "[Vless] v2ray优选 5", server: ns5.cloudflare.com, port: 443, type: vless, uuid: 4f023417-00da-41c4-b192-3c4d5f4a2c88, tls: true, skip-cert-verify: false, servername: vless-5es.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-5es.pages.dev}}, udp: true}
+  - {name: 优选 1, server: cf.877771.xyz, port: 443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 2, server: cf.877771.xyz, port: 8443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 3, server: www.nexusmods.com, port: 443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 4, server: www.nexusmods.com, port: 8443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 5, server: www.nexusmods.com, port: 2053, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 6, server: www.nexusmods.com, port: 2083, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 7, server: www.nexusmods.com, port: 2087, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 8, server: www.nexusmods.com, port: 2096, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: CFnat, server: 127.0.0.1, port: 1234, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 9, server: nrtcfdns.zone.id, port: 443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
+  - {name: 优选 10, server: nrtcfdns.zone.id, port: 8443, type: vless, uuid: fd93fcbb-e471-4934-a5f0-124ccd6eab45, tls: true, tfo: false, skip-cert-verify: false, servername: cctv9527.jhls.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: cctv9527.jhls.dpdns.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - DIRECT
-      - "[Vless] CFnat"
-      - "[Vless] v2ray优选 1"
-      - "[Vless] v2ray优选 2"
-      - "[Vless] v2ray优选 3"
-      - "[Vless] v2ray优选 4"
-      - "[Vless] v2ray优选 5"
+      - 优选 1
+      - 优选 2
+      - 优选 3
+      - 优选 4
+      - 优选 5
+      - 优选 6
+      - 优选 7
+      - 优选 8
+      - CFnat
+      - 优选 9
+      - 优选 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[Vless] CFnat"
-      - "[Vless] v2ray优选 1"
-      - "[Vless] v2ray优选 2"
-      - "[Vless] v2ray优选 3"
-      - "[Vless] v2ray优选 4"
-      - "[Vless] v2ray优选 5"
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - "[Vless] CFnat"
-      - "[Vless] v2ray优选 1"
-      - "[Vless] v2ray优选 2"
-      - "[Vless] v2ray优选 3"
-      - "[Vless] v2ray优选 4"
-      - "[Vless] v2ray优选 5"
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - "[Vless] CFnat"
-      - "[Vless] v2ray优选 1"
-      - "[Vless] v2ray优选 2"
-      - "[Vless] v2ray优选 3"
-      - "[Vless] v2ray优选 4"
-      - "[Vless] v2ray优选 5"
+      - 优选 1
+      - 优选 2
+      - 优选 3
+      - 优选 4
+      - 优选 5
+      - 优选 6
+      - 优选 7
+      - 优选 8
+      - CFnat
+      - 优选 9
+      - 优选 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -77,14 +77,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
-      - "[Vless] CFnat"
-      - "[Vless] v2ray优选 1"
-      - "[Vless] v2ray优选 2"
-      - "[Vless] v2ray优选 3"
-      - "[Vless] v2ray优选 4"
-      - "[Vless] v2ray优选 5"
+      - 优选 1
+      - 优选 2
+      - 优选 3
+      - 优选 4
+      - 优选 5
+      - 优选 6
+      - 优选 7
+      - 优选 8
+      - CFnat
+      - 优选 9
+      - 优选 10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -139,6 +142,19 @@ rules:
   - DOMAIN,rewards.hypixel.net,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN-SUFFIX,synology.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DiskStation.me,🎯 全球直连
+  - DOMAIN-SUFFIX,i234.me,🎯 全球直连
+  - DOMAIN-SUFFIX,myDS.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.biz,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.mobi,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.org,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.org,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1248,7 +1264,6 @@ rules:
   - DOMAIN-SUFFIX,shenghuo.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,union.mi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
@@ -1815,6 +1830,7 @@ rules:
   - DOMAIN-KEYWORD,claude,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
   - DOMAIN,ai.google.dev,🚀 节点选择
+  - DOMAIN,aistudio.google.com,🚀 节点选择
   - DOMAIN,api.githubcopilot.com,🚀 节点选择
   - DOMAIN,api.groq.com,🚀 节点选择
   - DOMAIN,api.together.xyz,🚀 节点选择
@@ -1830,9 +1846,12 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,claudeusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.sh,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
   - DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
@@ -2687,6 +2706,7 @@ rules:
   - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
   - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qwen.ai,🎯 全球直连
   - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
